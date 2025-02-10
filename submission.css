@@ -1,0 +1,1464 @@
+header {
+    background-color: #22b6af;
+}
+.hero-submission{
+    position: relative;
+    background: url("./assets/images/submisson-header-background.png") no-repeat center center/cover;
+    /* height: 100vh; */
+    width: 100%;
+    padding: 50px 0px 100px;
+}
+
+.submisson-header-text {
+    text-align: center;
+    margin: auto;
+}
+
+.submisson-header-text h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 80px;
+    letter-spacing: 1px;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+
+/* call-for-paper-section */
+
+#call-for-paper {
+    background-color: #f7f8f9;
+    background-image: url("./assets/images/submisson-call-for-paper-background.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    padding: 60px 0;
+}
+
+.call-for-paper-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.call-for-paper-img {
+    flex: 1;
+    max-width: 40%;
+    text-align: center;
+}
+
+.call-for-paper-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.call-for-paper-texts {
+    flex: 2;
+    max-width: 55%;
+    color: #333;
+}
+
+.call-for-paper-texts h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #152d35;
+    margin-bottom: 20px;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.call-for-paper-texts p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.publication-details h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #152d35;
+    margin-bottom: 17px;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.publication-points p {
+    font-size: 17px;
+    line-height: 1.6;
+
+    position: relative;
+    color: #555;
+}
+
+
+/* submisson guidelines */
+
+#submission-guidelines {
+    padding: 60px 0;
+
+}
+
+.submisson-guidelines-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    /* Ensures that text and image stay in one row */
+    margin: 0 auto;
+}
+
+.guidelines-details {
+    flex: 2;
+    max-width: 45%;
+    /* Adjusts the width of the text container */
+    color: #333;
+}
+
+.guidelines-details h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #152d35;
+    margin-bottom: 20px;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.guidelines-points p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    position: relative;
+    color: #555;
+}
+
+#submission-guidelines p span {
+    font-size: 25px;
+    margin-right: 5px;
+    color: #1d9a96;
+}
+
+
+.guidelines-img {
+    flex: 1;
+    max-width: 45%;
+    /* Adjusts the width of the image container */
+    margin: auto;
+
+}
+
+.guidelines-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* submission cta */
+
+#submission-cta {
+    background: url("./assets/images/submisson-cta-background.png") no-repeat center center;
+    background-size: cover;
+    padding: 60px 0;
+    color: #fff;
+}
+
+.submission-cta-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.submission-cta-container h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.speaker-icon {
+    margin-bottom: 35px;
+}
+
+.speaker-icon i {
+    font-size: 30px;
+    color: #fff;
+}
+
+.submission-dates {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    font-family: "Inter";
+}
+
+.submission-1 {
+    background: rgba(255, 255, 255, 0.7);
+    /* Transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+    max-width: 30%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.submission-1 h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #152d35;
+    margin-bottom: 10px;
+
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.submission-1 p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+}
+
+.submission-1 p span {
+    font-size: 40px;
+    font-weight: 700;
+    color: #152d35;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.submission-1 p::before {
+    content: '';
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    border-bottom: 2px solid #152d35;
+}
+
+.speaker-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.speaker-icon::before,
+.speaker-icon::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    /* Adjust the length of the lines */
+    height: 2px;
+    /* Line thickness */
+    background-color: #fff;
+    /* Line color */
+}
+
+.speaker-icon::before {
+    left: 430px;
+    /* Adjust the position of the left line */
+}
+
+.speaker-icon::after {
+    right: 430px;
+    /* Adjust the position of the right line */
+}
+
+
+/* submission  */
+#poster-submission {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+
+    background-color: #f7f8f9;
+    background-image: url("./assets/images/submisson-call-for-paper-background.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 30%;
+}
+
+.poster-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.poster-content {
+    flex: 1;
+    max-width: 50%;
+}
+
+.poster-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #152d35;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.guidelines-points {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.guidelines-points p {
+    margin-bottom: 10px;
+}
+
+.guidelines-points span {
+    color: #152d35;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.poster-image {
+    flex: 1;
+    max-width: 40%;
+    text-align: center;
+}
+
+.poster-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/* poster section */
+
+#oral-presentation {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+}
+
+.oral-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.oral-seciton-texts {
+    flex: 1;
+    max-width: 60%;
+}
+
+.oral-seciton-texts h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #152d35;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.oral-seciton-texts p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.oral-seciton-texts span {
+    color: #152d35;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.oral-img {
+    flex: 1;
+    max-width: 40%;
+    text-align: center;
+}
+
+.oral-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/* Hamburger Icon (Mobile Only) */
+.hamburger {
+    display: none;
+    /* Hidden on desktop */
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 1010;
+}
+
+
+@media (max-width : 991px){
+     /* Hamburger Icon (Mobile Only) */
+     .hamburger {
+        display: block;
+        /* Visible on mobile */
+        cursor: pointer;
+        font-size: 24px;
+        z-index: 1010;
+    }
+
+    /* Fullscreen Nav Links (Mobile) */
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        /* Start off-screen to the left */
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        /* Background overlay */
+        z-index: 1000;
+        gap: 30px;
+        transition: all 0.3s ease-in-out;
+        /* Smooth transition */
+    }
+
+    /* Nav links visible */
+    .nav-links.show {
+        left: 0;
+        /* Slide into view */
+    }
+
+    /* Adjusting Font Size for Mobile */
+    .nav-links ul {
+        flex-direction: column;
+        /* Stack links vertically */
+    }
+
+    .nav-links ul li {
+        margin: 15px 0;
+    }
+
+    .nav-links ul li a {
+        font-size: 20px !important;
+        /* Correct font size */
+        color: white;
+    }
+
+    nav .logo img {
+        height: 50px;
+    }
+
+    .submisson-header-text h1 {
+        font-size: 52px;
+    }
+
+    #call-for-paper {
+
+        padding: 60px 20px;
+    }
+
+    #submission-guidelines {
+        padding: 50px 30px; /* Adjusted padding for medium screens */
+    }
+
+    .submisson-guidelines-container {
+        display: flex;
+        flex-direction: column-reverse; /* Stack image and text vertically on medium screens */
+        align-items: center;
+        justify-content: center;
+        gap: 30px; /* Adjusted gap */
+        margin: 0 auto;
+    }
+
+    .guidelines-details {
+        flex: 1;
+        max-width: 90%; /* Adjusted width for text container */
+        color: #333;
+        text-align: center; /* Center align text */
+    }
+
+    .guidelines-details h1 {
+        font-size: 32px; /* Adjusted font size for medium screens */
+        font-weight: 700;
+        color: #152d35;
+        margin-bottom: 20px;
+        font-family: "Libre Franklin", sans-serif;
+    }
+
+    .submission-1 {
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        flex: 1;
+        min-width: 250px;
+        max-width: 50%;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .guidelines-points p {
+        font-size: 18px; /* Adjusted font size for readability on medium screens */
+        line-height: 1.6;
+        margin-bottom: 10px;
+        color: #555;
+        text-align: left;
+    }
+
+    #submission-guidelines p span {
+        font-size: 24px; /* Slightly reduced size for span */
+        margin-right: 5px;
+        color: #1d9a96;
+    }
+
+    .guidelines-img {
+        flex: 1;
+        max-width: 80%; /* Reduced width for image container */
+        text-align: center;
+    }
+
+    .guidelines-img img {
+        width: 100%; /* Full width for images */
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+
+    #poster-submission {
+        background-color: #f7f8f9;
+        background-image: url("./assets/images/submisson-call-for-paper-background.png");
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 50%; /* Adjust background size for medium screens */
+        padding: 50px 20px; /* Adjusted padding for medium screens */
+    }
+
+    .poster-container {
+        display: flex;
+        flex-direction: column-reverse; /* Stack items vertically */
+        align-items: center; /* Center content */
+        justify-content: center;
+        gap: 30px; /* Adjusted gap */
+    }
+
+    .poster-content {
+        flex: 1;
+        max-width: 90%; /* Make content take more space on smaller screens */
+        text-align: center; /* Center text */
+    }
+
+    .poster-content h1 {
+        font-size: 30px; /* Adjusted font size */
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #152d35;
+        font-family: "Libre Franklin", sans-serif;
+    }
+
+    .guidelines-points {
+        font-size: 16px; /* Reduced font size for mobile */
+        line-height: 1.6;
+        color: #555;
+    }
+
+    .guidelines-points p {
+        margin-bottom: 15px; /* Adjusted bottom margin for readability */
+    }
+
+    .guidelines-points span {
+        color: #152d35;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    .poster-image {
+        flex: 1;
+        max-width: 80%; /* Increased width for mobile screens */
+        text-align: center;
+    }
+
+    .poster-image img {
+        width: 75%; /* Adjusted image width */
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px; /* Rounded corners for image */
+    }
+
+    #oral-presentation {
+        background-color: #f4f4f4;
+        padding: 60px 20px;
+    }
+    
+
+}
+
+
+@media (max-width : 771px){
+      /* Hamburger Icon (Mobile Only) */
+      .hamburger {
+        display: block;
+        /* Visible on mobile */
+        cursor: pointer;
+        font-size: 24px;
+        z-index: 1010;
+    }
+
+    /* Fullscreen Nav Links (Mobile) */
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        /* Start off-screen to the left */
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        /* Background overlay */
+        z-index: 1000;
+        gap: 30px;
+        transition: all 0.3s ease-in-out;
+        /* Smooth transition */
+    }
+
+    /* Nav links visible */
+    .nav-links.show {
+        left: 0;
+        /* Slide into view */
+    }
+
+    /* Adjusting Font Size for Mobile */
+    .nav-links ul {
+        flex-direction: column;
+        /* Stack links vertically */
+    }
+
+    .nav-links ul li {
+        margin: 15px 0;
+    }
+
+    .nav-links ul li a {
+        font-size: 20px !important;
+        /* Correct font size */
+        color: white;
+    }
+
+    nav .logo img {
+        height: 50px;
+    }
+
+    .submisson-header-text h1 {
+        font-size: 51px;
+
+    }
+
+
+    #call-for-paper {
+        background-color: #f7f8f9;
+        background-image: url("./assets/images/submisson-call-for-paper-background.png");
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 80%;
+        padding: 40px 20px; /* Reduced padding for smaller screens */
+    }
+
+    .call-for-paper-container {
+        display: flex;
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .call-for-paper-img {
+        flex: 1;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .call-for-paper-img img {
+        width: 70%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .call-for-paper-texts {
+        flex: 2;
+        max-width: 100%;
+        color: #333;
+        text-align: center;
+    }
+
+    .call-for-paper-texts h1 {
+        font-size: 28px; /* Adjusted font size for smaller screens */
+        font-weight: 700;
+        color: #152d35;
+        margin-bottom: 15px;
+        font-family: "Libre Franklin", sans-serif;
+    }
+
+    .call-for-paper-texts p {
+        font-size: 17px; /* Slightly smaller text for better readability */
+        line-height: 1.7;
+        color: #555;
+        margin-bottom: 20px;
+    }
+
+    .publication-details h2 {
+        font-size: 30px; /* Slightly smaller heading */
+        font-weight: 700;
+        color: #152d35;
+        margin-bottom: 20px;
+        font-family: "Libre Franklin", sans-serif;
+    }
+
+    .publication-points p {
+        font-size: 17px; /* Slightly smaller font for better readability */
+        line-height: 1.6;
+        color: #555;
+    }
+
+    .call-for-paper-texts h1 {
+        font-size: 37px;
+    }
+
+    #submission-guidelines {
+        padding: 40px 20px; /* Reduced padding for smaller screens */
+    }
+
+    .submisson-guidelines-container {
+        display: flex;
+        flex-direction: column-reverse; /* Stack image and text vertically */
+        align-items: center;
+        justify-content: center;
+        gap: 20px; /* Reduced gap */
+        margin: 0 auto;
+    }
+
+    .guidelines-details {
+        flex: 1;
+        max-width: 100%; /* Full width for text container */
+        color: #333;
+        text-align: center; /* Center align text on smaller screens */
+    }
+
+    .guidelines-details h1 {
+        font-size: 28px; /* Adjusted font size for smaller screens */
+        font-weight: 700;
+        color: #152d35;
+        margin-bottom: 15px;
+        font-family: "Libre Franklin", sans-serif;
+    }
+
+    .guidelines-points p {
+        font-size: 17px; /* Adjusted font size for smaller screens */
+        line-height: 1.6;
+        margin-bottom: 10px;
+        color: #555;
+        text-align: left;
+    }
+
+    #submission-guidelines p span {
+        font-size: 22px; /* Reduced size for span */
+        margin-right: 5px;
+        color: #1d9a96;
+    }
+
+    .guidelines-img {
+        flex: 1;
+        max-width: 100%; /* Full width for image container */
+        text-align: center;
+    }
+
+    .guidelines-img img {
+        width: 75%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+    } 
+
+
+    #submission-cta {
+        background: url("./assets/images/submisson-cta-background.png") no-repeat center center;
+        background-size: cover;
+        padding: 40px 20px; /* Adjusted padding for mobile screens */
+        color: #fff;
+    }
+
+    .submission-cta-container {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .submission-cta-container h1 {
+        font-size: 28px; /* Adjusted font size for mobile */
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 20px;
+        font-family: "Libre Franklin", sans-serif;
+    }
+
+    .speaker-icon {
+        margin-bottom: 25px; /* Reduced margin for mobile */
+    }
+
+    .speaker-icon i {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .submission-dates {
+        display: flex;
+        flex-direction: row; /* Stack the dates vertically */
+        align-items: center; /* Center the items */
+        justify-content: center;
+        gap: 20px; /* Reduced gap for mobile */
+    }
+
+    .submission-1 {
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        flex: 1;
+        min-width: 250px;
+        max-width: 37%; /* Full width for mobile screens */
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .submission-1 h2 {
+        font-size: 20px; /* Adjusted font size */
+        font-weight: 700;
+        color: #152d35;
+        margin-bottom: 10px;
+        font-family: "Libre Franklin", sans-serif;
+    }
+
+    .submission-1 p {
+        font-size: 18px; /* Adjusted font size for mobile */
+        font-weight: 500;
+        color: #333;
+    }
+
+    .submission-1 p span {
+        font-size: 30px; /* Adjusted font size for mobile */
+        font-weight: 700;
+        color: #152d35;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .submission-1 p::before {
+        content: '';
+        display: block;
+        margin: 10px 0;
+        width: 100%;
+        border-bottom: 2px solid #152d35;
+    }
+
+    .speaker-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 20px; /* Adjusted margin */
+    }
+
+    .speaker-icon::before,
+    .speaker-icon::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 60px; /* Reduced length of the lines */
+        height: 2px;
+        background-color: #fff;
+    }
+
+    .speaker-icon::before {
+        left: 220px; /* Adjusted position */
+    }
+
+    .speaker-icon::after {
+        right: 220px; /* Adjusted position */
+    }
+
+    #poster-submission {
+        background-color: #f7f8f9;
+        background-image: url("./assets/images/submisson-call-for-paper-background.png");
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 60%; /* Adjust background size for smaller screens */
+        padding: 40px 20px; /* Reduced padding for mobile */
+    }
+
+    .poster-container {
+        display: flex;
+        flex-direction: column-reverse; /* Stack items vertically */
+        align-items: center; /* Center the content */
+        justify-content: center;
+        gap: 20px; /* Reduced gap for mobile screens */
+    }
+
+    .poster-content {
+        flex: 1;
+        max-width: 90%; /* Make content take more space on smaller screens */
+        text-align: center; /* Center text on mobile */
+    }
+
+    .poster-content h1 {
+        font-size: 35px; /* Adjusted font size */
+        font-weight: bold;
+        margin-block: 20px;
+        color: #152d35;
+        font-family: "Libre Franklin", sans-serif;
+    }
+
+    .guidelines-points {
+        font-size: 16px; /* Reduced font size for mobile */
+        line-height: 1.6;
+        color: #555;
+    }
+
+    .guidelines-points p {
+        margin-bottom: 10px;
+    }
+
+    .guidelines-points span {
+        color: #152d35;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    .poster-image {
+        flex: 1;
+        max-width: 80%; /* Increased width for mobile screens */
+        text-align: center;
+    }
+
+    .poster-image img {
+        width: 75%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px; /* Rounded corners for images */
+    }
+
+
+    #oral-presentation {
+        background-color: #f4f4f4;
+        padding: 40px 20px; /* Reduced padding for smaller screens */
+    }
+
+    .oral-container {
+        display: flex;
+        flex-direction: column-reverse; /* Stack items vertically on mobile */
+        align-items: center; /* Center the content */
+        gap: 20px; /* Reduced gap for mobile screens */
+        justify-content: center;
+    }
+
+    .oral-seciton-texts {
+        flex: 1;
+        max-width: 90%; /* Adjusted width for better fit */
+        text-align: center; /* Center text on mobile */
+    }
+
+    .oral-seciton-texts h1 {
+        font-size: 28px; /* Adjusted font size for mobile */
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #152d35;
+        font-family: "Libre Franklin", sans-serif;
+    }
+
+    .oral-seciton-texts p {
+        font-size: 17px; /* Reduced font size for readability */
+        line-height: 1.8;
+        color: #555;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+
+    .oral-seciton-texts span {
+        color: #152d35;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    .oral-img {
+        flex: 1;
+        max-width: 80%; /* Increased width for mobile images */
+        text-align: center;
+    }
+
+    .oral-img img {
+        width: 75%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px; /* Added rounded corners for mobile images */
+    }
+
+    
+    .subfooter-text {
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+/* media */
+
+@media (max-width: 450px) {
+    
+    /* Hamburger Icon (Mobile Only) */
+    .hamburger {
+        display: block;
+        /* Visible on mobile */
+        cursor: pointer;
+        font-size: 24px;
+        z-index: 1010;
+    }
+
+    /* Fullscreen Nav Links (Mobile) */
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        /* Start off-screen to the left */
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        /* Background overlay */
+        z-index: 1000;
+        gap: 30px;
+        transition: all 0.3s ease-in-out;
+        /* Smooth transition */
+    }
+
+    /* Nav links visible */
+    .nav-links.show {
+        left: 0;
+        /* Slide into view */
+    }
+
+    /* Adjusting Font Size for Mobile */
+    .nav-links ul {
+        flex-direction: column;
+        /* Stack links vertically */
+    }
+
+    .nav-links ul li {
+        margin: 15px 0;
+    }
+
+    .nav-links ul li a {
+        font-size: 20px !important;
+        /* Correct font size */
+        color: white;
+    }
+
+    nav .logo img {
+        height: 50px;
+    }
+
+    .submisson-header-text h1 {
+        font-size: 50px;
+    }
+
+
+    #call-for-paper {
+        background-position: top right;
+        padding: 40px 20px;
+    
+        
+    }
+
+    .call-for-paper-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .call-for-paper-img {
+        flex: 1;
+        max-width: 80%;
+        text-align: center;
+    }
+
+    .call-for-paper-img img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .call-for-paper-texts {
+        flex: 1;
+        max-width: 100%;
+        color: #333;
+        text-align: center;
+    }
+
+    .call-for-paper-texts h1 {
+        font-size: 28px;
+        font-weight: 700;
+        color: #152d35;
+        margin-bottom: 15px;
+        font-family: "Libre Franklin", sans-serif;
+    }
+
+    .call-for-paper-texts p {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #555;
+        margin-bottom: 15px;
+        
+    }
+
+    .publication-details h2 {
+        font-size: 25px;
+        font-weight: 700;
+        color: #152d35;
+        margin-bottom: 18px;
+        margin-top: 25px;
+        font-family: "Libre Franklin", sans-serif;
+    }
+
+    .publication-points p {
+        font-size: 16px;
+        line-height: 1.6;
+        position: relative;
+        color: #555;
+    }
+
+    #submission-guidelines {
+        padding: 40px 20px;
+    }
+
+    .submisson-guidelines-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin: 0 auto;
+    }
+
+    .guidelines-details {
+        flex: 1;
+        max-width: 100%;
+        color: #333;
+        text-align: center;
+    }
+
+    .guidelines-details h1 {
+        font-size: 31px;
+        font-weight: 700;
+        color: #152d35;
+        margin-bottom: 15px;
+        font-family: "Libre Franklin", sans-serif;
+    }
+
+    .guidelines-points p {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 8px;
+        position: relative;
+        color: #555;
+
+        text-align: left;
+    }
+
+    #submission-guidelines p span {
+        font-size: 22px;
+        margin-right: 5px;
+        color: #1d9a96;
+    }
+
+    .guidelines-img {
+        flex: 1;
+        max-width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .guidelines-img img {
+        width: 80%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+
+    #submission-cta {
+        background: url("./assets/images/submisson-cta-background.png") no-repeat center center;
+        background-size: cover;
+        padding: 40px 0;
+        color: #fff;
+    }
+
+    .submission-cta-container {
+        text-align: center;
+        padding: 15px;
+    }
+
+    .submission-cta-container h1 {
+        font-size: 28px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 20px;
+        font-family: "Libre Franklin", sans-serif;
+    }
+
+    .speaker-icon {
+        margin-bottom: 25px;
+    }
+
+    .speaker-icon i {
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .submission-dates {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        font-family: "Inter";
+    }
+
+    .submission-1 {
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+        flex: 1;
+        min-width: 100%;
+        max-width: 100%;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .submission-1 h2 {
+        font-size: 18px;
+        font-weight: 700;
+        color: #152d35;
+        margin-bottom: 10px;
+        font-family: "Libre Franklin", sans-serif;
+    }
+
+    .submission-1 p {
+        font-size: 16px;
+        font-weight: 500;
+        color: #333;
+    }
+
+    .submission-1 p span {
+        font-size: 30px;
+        font-weight: 700;
+        color: #152d35;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .submission-1 p::before {
+        content: '';
+        display: block;
+        margin: 10px 0;
+        width: 100%;
+        border-bottom: 2px solid #152d35;
+    }
+
+    .speaker-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .speaker-icon::before,
+    .speaker-icon::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 50px;
+        height: 2px;
+        background-color: #fff;
+    }
+
+    .speaker-icon::before {
+        left: 50px;
+    }
+
+    .speaker-icon::after {
+        right: 50px;
+    }
+
+    .submission-1 h2 {
+        font-size: 25px;
+    }
+
+    .submission-1 p {
+        font-size: 17px;
+    }
+
+    #poster-submission {
+        background-color: #f9f9f9;
+        padding: 40px 20px;
+        background-image: url("./assets/images/submisson-call-for-paper-background.png");
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: contain;
+    }
+
+    .poster-container {
+        display: flex;
+        flex-direction: column-reverse; /* Stack items vertically */
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .poster-content {
+        flex: 1;
+        max-width: 100%;
+        text-align: center;
+        margin-top: 20px; /* Move the text below the image */
+    }
+
+    .poster-content h1 {
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #152d35;
+        font-family: "Libre Franklin", sans-serif;
+    }
+
+    .guidelines-points {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #555;
+        margin-bottom: 15px;
+    }
+
+    .guidelines-points p {
+        margin-bottom: 10px;
+    }
+
+    .guidelines-points span {
+        color: #152d35;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    .poster-image {
+        flex: 1;
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .poster-image img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .poster-content h1 {
+        font-size: 31px;
+    }
+
+    #oral-presentation {
+        background-color: #f4f4f4;
+        padding: 40px 20px;
+    }
+
+    .oral-container {
+        display: flex;
+        flex-direction: column-reverse; /* Stack items vertically */
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .oral-seciton-texts {
+        flex: 1;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .oral-seciton-texts h1 {
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #152d35;
+        font-family: "Libre Franklin", sans-serif;
+    }
+
+    .oral-seciton-texts p {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #555;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .oral-seciton-texts span {
+        color: #152d35;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    .oral-img {
+        flex: 1;
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .oral-img img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .oral-seciton-texts h1 {
+        font-size: 31px;
+    }
+    
+}
+.guidelines-points a{
+    color: #152d35;
+}
+.call-for-paper-texts ul{
+    margin: 0px 20px;
+}
+.call-for-paper-texts ul li{
+    line-height: 1.3;
+}
+.call-for-paper-texts ul li{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+@media (max-width : 767px) {
+    .call-for-paper-texts ul li{
+        margin-bottom: 10px;
+        font-size: 16px;
+    }  
+}
+@media (min-width : 768px) {
+.call-for-paper-texts ul li{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+}

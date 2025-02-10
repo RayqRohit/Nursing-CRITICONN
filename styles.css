@@ -1,0 +1,2304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body,
+html {
+    scroll-behavior: smooth;
+    font-family: "Inter";
+}
+
+
+/* utilites section */
+
+.container {
+    max-width: 1280px;
+
+    margin: 0 auto;
+
+}
+
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('./assets/fonts/libreFranklin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter.ttf') format('truetype');
+}
+
+img {
+    user-select: none;
+    /* Prevent images from being selected */
+}
+
+
+/* header section */
+header {
+    background-color: #edc031;
+}
+
+section.hero {
+    position: relative;
+    background: url("./assets/images/banners/parul-nursing-banner.png") center / cover no-repeat;
+    /* height: 100vh; */
+    width: 100%;
+    padding: 75px 0px 150px;
+}
+
+.right-content {
+    position: absolute;
+}
+
+.right-content .blinking-css h4 {
+    font-size: 16px;
+    color: #fff;
+    margin: 10px 0px;
+}
+
+/* .blinking-css {
+    animation: blinking1 1300ms infinite;
+	border-radius:5px;
+    padding: 10px 20px;
+    margin: 15px 0px;
+} */
+.guidelines-points .blinking-css {
+    font-size: 13px;
+    margin-left: 5px;
+    color: #f2f2f2;
+}
+
+@keyframes blinking1 {
+    0% {
+        background-color: rgb(34 182 175 / 39%);
+        box-shadow: 0 0 5px rgb(34 182 175 / 39%);
+    }
+
+    50% {
+        background-color: #22b6af;
+        box-shadow: 0 0 20px #22b6af;
+    }
+
+    100% {
+        background-color: #22b6af;
+        box-shadow: 0 0 5px #1d9a96;
+    }
+}
+
+/* navbar section */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+nav .container{
+    padding: 0;
+}
+
+
+nav .logo img {
+    height: 60px;
+    width: auto;
+}
+
+
+nav .nav-links ul {
+    list-style: none;
+    /* Remove bullets */
+    display: flex;
+    gap: 20px;
+    /* Spacing between links */
+    margin: 0;
+    padding: 0;
+}
+
+
+nav .nav-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-weight: semibold;
+}
+
+
+nav .nav-links ul li a:hover {
+    color: #ce000d;
+}
+
+/* header section text */
+
+
+#header-text {
+    /* margin-top: 45px; */
+    line-height: 1.5;
+    color: white;
+    /* max-width: 90%; */
+}
+
+#header-text p {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10px 0;
+    font-family: "Inter";
+}
+
+#header-text h1 {
+    font-size: 57px;
+    /* margin: 15px 0; */
+    font-family: "Libre Franklin";
+    line-height: 1.2;
+    font-weight: bold;
+
+}
+
+#header-text h4 {
+    font-size: 60px;
+    font-weight: 200;
+    margin: 25px 0;
+    width: 80%;
+    line-height: 1.2;
+}
+
+#header-text .location-button {
+    background: transparent;
+    border: 2px solid white;
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-top: 22px;
+}
+
+/* #header-text .location-button .date {
+    display: flex;
+    gap: 10px;
+
+} */
+.location-button .date i {
+    margin-right: 5px;
+}
+
+.sep-css {
+    margin: 0px 10px 0px 15px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.start-date,
+.end-date {
+    position: relative;
+}
+
+.abs-th {
+    position: absolute;
+    top: -8px;
+    font-size: 14px;
+}
+
+.location-button .venue {
+    display: flex;
+    gap: 10px;
+}
+
+.register {
+    background-color: #155aa6;
+    padding: 17px 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 25px;
+    color: white;
+    font-family: "Inter";
+    letter-spacing: 0.8px;
+
+}
+
+
+/* hosters section */
+
+#hoster-section-1 {
+    padding: 4rem 20px 5rem;
+    background-color: #FFFFF0;
+    color: #333;
+    background-image: url("./assets/images/decoration-shape.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+
+
+}
+
+#hoster-section-1 .container {
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+.parul-main {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.parul-main h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 20px;
+    font-family: "Libre Franklin";
+}
+
+.parul-main p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 0 auto;
+    font-family: "Inter";
+    color: #555;
+}
+
+.pharmacy-section {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    align-items: stretch;
+    /* Ensures both sections match in height */
+    gap: 25px;
+    flex-wrap: wrap;
+    background-color: #fffff0;
+    padding-block: 30px;
+}
+
+/* Style for the image on the left */
+.pharma-img {
+    flex: 0.8;
+    /* Ensures equal size with .pharma-texts */
+    display: flex;
+    justify-content: center;
+    /* Center the image horizontally */
+    align-items: center;
+    /* Center the image vertically */
+}
+
+.pharma-img img {
+    width: 100%;
+    /* Ensures the image scales properly */
+    height: 100%;
+    /* Stretches the image to match the container height */
+    object-fit: cover;
+    /* Maintains the image aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the text on the right */
+.pharma-texts {
+    flex: 1;
+    /* Ensures equal size with .pharma-img */
+    max-width: 65%;
+    /* Optional for responsiveness */
+}
+
+.pharma-texts p:first-child {
+    font-size: 25px;
+    font-weight: bold;
+    color: #edc031;
+    margin-bottom: 5px;
+    font-family: "Inter";
+    margin-top: 10px;
+}
+
+.pharma-texts h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+    line-height: 1.3;
+    font-family: "Libre Franklin";
+    margin-top: 10px;
+}
+
+.pharma-texts p {
+    font-size: 16px;
+    line-height: 1.3;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.about-pharma {
+    background-color: #22b6af;
+    padding: 12px 45px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: "Inter";
+    letter-spacing: 0.8px;
+}
+
+.nursing-programs {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.nursing-programs li {
+    margin-bottom: 5px;
+}
+
+
+
+/* about the conference things */
+
+#about-conference {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+.conference-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.conference-text {
+    flex: 1;
+    max-width: 55%;
+    padding-right: 30px;
+    /* Space between text and image */
+}
+
+.conference-text p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    color: #edc031;
+    margin-bottom: 5px;
+    font-family: "Inter";
+}
+
+.conference-text h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+    line-height: 1.3;
+    font-family: "Libre Franklin";
+}
+
+.conference-text p {
+    font-size: 16px;
+    line-height: 1.54;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.trust-content h3 {
+    font-weight: 700;
+}
+
+.conference-img {
+    /* flex: 1; */
+    max-width: 45%;
+    /* Space between image and text */
+}
+
+.conference-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:not(.slick-arrow) {
+    background-color: #003c92;
+    color: white;
+    padding: 12px 45px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-family: "Inter";
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.slick-arrow {
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+}
+
+button:hover {
+    background-color: #155aa6;
+}
+
+
+/* speakers section */
+
+#speakers-section {
+    background-color: #026095;
+    color: #fff;
+    padding: 70px 20px;
+
+}
+
+#speakers-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Center the content */
+    padding: 0 20px;
+}
+
+.speaking-about {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.speaking-about h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: "Libre Franklin", sans-serif;
+    color: #ffffff;
+}
+
+.speaking-about p {
+    font-size: 18px;
+
+    font-family: "Inter", sans-serif;
+
+    margin: auto;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.speaking-about .start-date {
+    margin-left: 10px;
+}
+
+.speaking-about button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 20px 80px;
+    font-size: 17px;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    /* gap: 30px; */
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+    margin: auto;
+
+}
+
+.speaking-about button i {
+    font-size: 20px;
+}
+
+.speaker-icons {
+    margin-top: 20px;
+    font-size: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* .keynote-speakers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    margin-top: 40px;
+} */
+
+.keynote-speakers img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); */
+}
+
+/* .keynote-speakers img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+} */
+
+
+.speaker-icons::before,
+.speaker-icons::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    /* Length of the line */
+    height: 2px;
+    /* Thickness of the line */
+    background-color: #fff;
+    /* Color of the line */
+}
+
+.speaker-icons::before {
+    left: 43%;
+    /* Position the line on the left */
+}
+
+.speaker-icons::after {
+    right: 43%;
+    /* Position the line on the right */
+}
+
+
+
+/* organizers */
+
+
+#organizers {
+    background-color: #f4f4f4;
+    /* Background color for the section */
+    padding: 50px 0;
+}
+
+#organizers .organizers-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.org-team-1,
+.org-team-2 {
+    width: 48%;
+    /* Sets the width of each team block */
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    /* Background color for each team section */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.org-team-1 h1,
+.org-team-2 h1 {
+    font-size: 26px;
+    color: #152d35;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Libre Franklin";
+}
+
+.team-details {
+    display: grid;
+    grid-template-columns: 100%;
+    /* Make the first row take full width initially */
+    gap: 20px;
+}
+
+.team-details .speaker-name.w-100 {
+    grid-column: 1 / -1;
+    /* Make the first column span all grid columns */
+}
+
+@media (min-width: 768px) {
+
+    /* Adjust breakpoint as needed */
+    .mobile-logo {
+        display: none;
+    }
+
+    .team-details {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        /* Grid layout for larger screens */
+    }
+
+    .team-details .speaker-name.w-100 {
+        grid-column: 1 / -1;
+        /* Still spans all columns in the grid */
+        justify-content: center;
+    }
+
+    .right-content {
+        top: 100px;
+        right: 50px;
+    }
+
+    .countdown-sec {
+        margin: -80px 0px -125px;
+    }
+
+    .countdown ul {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .trust-content h3 {
+        font-size: 32px;
+    }
+
+    #trust-slider .item h4 {
+        font-size: 16px;
+    }
+
+    .w-50 {
+        width: 49%;
+    }
+
+    .visit-places {
+        padding: 75px 0px;
+    }
+}
+
+.speaker-name {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    /* Background color for each speaker */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.speaker-name img {
+    width: 16px;
+    height: 15px;
+    margin-right: 15px;
+}
+
+.speaker-name p {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+
+/* cta section */
+
+
+#cta-section {
+    background-image: url('./assets/images/cta-background.png');
+    /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    color: white;
+
+}
+
+
+.cta-container h2 {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: "Libre Franklin";
+    letter-spacing: 1.1px;
+
+}
+
+.cta-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #f0f0f0;
+}
+
+.btn-grp {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-grp button {
+    background-color: #edc031;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+#cta-section .btn-grp button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    justify-content: center;
+}
+
+#cta-section .btn-grp button a:hover {
+    color: #fff;
+    /* Light hover effect for text */
+}
+
+.btn-grp button i {
+    font-size: 18px;
+}
+
+.btn-grp button:hover {
+    background-color: #FCC737;
+    transform: scale(1.05);
+}
+
+
+/* footer section */
+
+footer {
+    background-color: #026095;
+    /* Dark background for footer */
+    color: white;
+    padding: 70px 0;
+    /* Space around the footer content */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 40%;
+}
+
+.footer-left .mail-info {
+    letter-spacing: 0.8px;
+    font-family: "Inter";
+}
+
+.footer-logo img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.mail-info,
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.mail-info i,
+.contact-info i {
+    font-size: 20px;
+    color: #fcc737;
+
+}
+
+.footer-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-right h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fcc737;
+
+}
+
+.footer-right p {
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: "Inter";
+    letter-spacing: 0.7px;
+}
+
+
+/* subfooter section */
+
+#subfooter {
+    background-color: #026095;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    font-size: 14px;
+    border-top: 1px solid #005153;
+
+}
+
+.subfooter-text {
+    text-align: left;
+    font-family: "Inter";
+    letter-spacing: 1px;
+}
+
+/* media  */
+
+/* Hamburger Icon (Mobile Only) */
+.hamburger {
+    display: none;
+    /* Hidden on desktop */
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 1010;
+}
+
+@media (max-width : 991px) {
+
+    /* Hamburger Icon (Mobile Only) */
+    .hamburger {
+        display: block;
+        /* Visible on mobile */
+        cursor: pointer;
+        font-size: 24px;
+        z-index: 1010;
+    }
+
+    /* Fullscreen Nav Links (Mobile) */
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        /* Start off-screen to the left */
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        /* Background overlay */
+        z-index: 1000;
+        gap: 30px;
+        transition: all 0.3s ease-in-out;
+        /* Smooth transition */
+    }
+
+    /* Nav links visible */
+    .nav-links.show {
+        left: 0;
+        /* Slide into view */
+    }
+
+    /* Adjusting Font Size for Mobile */
+    .nav-links ul {
+        flex-direction: column;
+        /* Stack links vertically */
+    }
+
+    .nav-links ul li {
+        margin: 15px 0;
+    }
+
+    .nav-links ul li a {
+        font-size: 20px !important;
+        /* Correct font size */
+        color: white;
+    }
+
+    nav .logo img {
+        height: 60px;
+    }
+
+    header {
+        height: auto;
+    }
+
+    #header-text {
+        max-width: 90%;
+        padding-inline: 30px;
+        margin-top: 30px;
+
+    }
+
+    #header-text p {
+        font-size: 17px;
+    }
+
+    #header-text h1 {
+        font-size: 55px;
+    }
+
+    #header-text h4 {
+        font-size: 35px;
+    }
+
+    .register {
+        margin-bottom: 30px;
+    }
+
+    #about-conference {
+        padding: 30px 20px;
+        /* Adjust padding for smaller screens */
+    }
+
+    .conference-container {
+        flex-direction: column;
+        /* Stack text and image vertically */
+        align-items: center;
+        /* Center-align content */
+        gap: 20px;
+        /* Reduce the gap between elements */
+    }
+
+    .conference-text {
+        max-width: 100%;
+        /* Allow full width for text */
+        padding-right: 0;
+        /* Remove padding on the right */
+        text-align: center;
+        /* Center-align text */
+    }
+
+    .conference-text p:first-child {
+        font-size: 18px;
+        /* Reduce font size for smaller screens */
+        margin-bottom: 10px;
+        text-align: center;
+        /* Add more spacing */
+    }
+
+    .conference-text h2 {
+        font-size: 35px;
+        /* Adjust heading size */
+        margin-block: 20px;
+    }
+
+    .conference-text p {
+        font-size: 16px;
+        /* Reduce paragraph font size */
+        line-height: 1.5;
+        /* Adjust line height for readability */
+        margin-bottom: 15px;
+    }
+
+    .conference-img {
+        max-width: 100%;
+        /* Allow the image to take full width */
+        padding-left: 0;
+        /* Remove padding on the left */
+    }
+
+    .conference-img img {
+        width: 100%;
+        /* Ensure image scales properly */
+        border-radius: 8px;
+        /* Adjust border radius slightly */
+    }
+
+    #about-conference button {
+        padding: 10px 30px;
+        /* Adjust padding for the button */
+        font-size: 16px;
+        width: 25%;
+        /* Reduce button font size */
+        margin-block: 30px;
+    }
+
+    #speakers-section {
+        padding: 50px 20px;
+        /* Reduce padding for smaller screens */
+    }
+
+    .speaking-about h1 {
+        font-size: 28px;
+        /* Adjust heading size */
+        margin-bottom: 20px;
+    }
+
+    .speaking-about p {
+        font-size: 16px;
+        /* Reduce font size for better fit */
+        margin-bottom: 20px;
+        line-height: 1.5;
+        text-align: center;
+        /* Center-align text */
+    }
+
+    .speaking-about button {
+        padding: 15px 50px;
+        /* Adjust button size */
+        font-size: 15px;
+        /* Reduce font size */
+        /* gap: 20px; */
+        /* Adjust icon spacing */
+    }
+
+    .speaking-about button i {
+        font-size: 18px;
+        /* Reduce icon size */
+    }
+
+    .speaker-icons {
+        margin-top: 15px;
+        /* Reduce spacing */
+    }
+
+    .speaker-icons::before,
+    .speaker-icons::after {
+        width: 30px;
+        /* Shorten the decorative lines */
+    }
+
+    /* .keynote-speakers {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        margin-top: 30px;
+    } */
+
+    .keynote-speakers img {
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+        /* Adjust shadow for smaller images */
+    }
+
+
+
+    .org-team-1,
+    .org-team-2 {
+        width: 100%;
+    }
+
+    .team-details {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .speaker-name {
+        flex-direction: row;
+        align-items: flex-start;
+
+    }
+
+    .speaker-name img {
+        margin-bottom: 10px;
+    }
+
+    .speaker-name p {
+        font-size: 14px;
+    }
+
+    .org-team-1 h1,
+    .org-team-2 h1 {
+        font-size: 27px;
+        margin-bottom: 25px;
+    }
+
+    #cta-section {
+        padding: 100px 30px;
+    }
+
+    footer {
+        padding: 70px 30px;
+    }
+
+
+    .pharmacy-section {
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+        /* Center align for better visuals */
+        gap: 20px;
+        /* Adjust spacing between image and text */
+    }
+
+    .pharma-img {
+        width: 100%;
+        /* Image takes full width */
+        max-width: 600px;
+        /* Optional: Set a max-width for better scaling */
+        display: flex;
+        justify-content: center;
+        /* Center image horizontally */
+    }
+
+    .pharma-img img {
+        width: 80%;
+        /* Make image responsive */
+        height: auto;
+        /* Maintain aspect ratio */
+        border-radius: 10px;
+        /* Retain border styling */
+        object-fit: cover;
+        /* Ensures image scales properly */
+    }
+
+    .pharma-texts {
+        width: 100%;
+        /* Text takes full width */
+        text-align: center;
+        /* Center align text for a cleaner look */
+        padding: 0 15px;
+        /* Add padding for mobile screens */
+    }
+
+    .pharma-texts {
+        flex: 1;
+        max-width: 100%;
+    }
+
+    .pharma-texts p:first-child {
+        margin-top: 20px;
+        font-size: 20px;
+        /* Adjust font size for smaller screens */
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .pharma-texts h2 {
+        font-size: 37px;
+        /* Reduce font size for headings */
+        margin-bottom: 15px;
+        line-height: 1.4;
+    }
+
+    .pharma-texts p {
+        font-size: 16px;
+        /* Adjust font size for paragraph text */
+        line-height: 1.5;
+        text-align: justify;
+        /* Retain justified alignment */
+    }
+
+    .about-pharma {
+        font-size: 16px;
+        /* Adjust button font size */
+        padding: 17px 30px;
+        /* Adjust button padding */
+        width: 30%;
+    }
+
+}
+
+@media (max-width : 767px) {
+
+    .pickop-img {
+        display: none;
+    }
+
+    .w-50 {
+        width: 100%;
+    }
+
+    .visit-places {
+        padding: 50px 0px;
+    }
+
+    .countdown-sec {
+        padding-top: 120px;
+        background-color: #f7f8f9;
+        color: #333;
+        background-image: url(./assets/images/decoration-shape.png);
+        background-position: top right;
+        background-repeat: no-repeat;
+        margin: 0px 10px;
+    }
+
+    .countdown ul {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .trust-content h3 {
+        font-size: 24px;
+    }
+
+    #trust-slider .item h4 {
+        font-size: 14px;
+    }
+
+    /* Hamburger Icon (Mobile Only) */
+    .hamburger {
+        display: block;
+        /* Visible on mobile */
+        cursor: pointer;
+        font-size: 24px;
+        z-index: 1010;
+    }
+
+    #header-text {
+        max-width: 100%;
+
+
+    }
+
+    /* hero section */
+    .right-content {
+        bottom: -90px;
+        right: 0px;
+        margin: 0px 10px;
+    }
+
+    /* Fullscreen Nav Links (Mobile) */
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        /* Start off-screen to the left */
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        /* Background overlay */
+        z-index: 1000;
+        gap: 30px;
+        transition: all 0.3s ease-in-out;
+        /* Smooth transition */
+    }
+
+    /* Nav links visible */
+    .nav-links.show {
+        left: 0;
+        /* Slide into view */
+    }
+
+    /* Adjusting Font Size for Mobile */
+    .nav-links ul {
+        flex-direction: column;
+        /* Stack links vertically */
+    }
+
+    .nav-links ul li {
+        margin: 15px 0;
+    }
+
+    .nav-links ul li a {
+        font-size: 20px !important;
+        /* Correct font size */
+        color: white;
+    }
+
+    nav .logo img {
+        height: 50px;
+    }
+
+
+
+    #header-text {
+        margin-top: 40px;
+        padding-inline: 20px;
+    }
+
+    #header-text h1 {
+        font-size: 50px;
+    }
+
+
+    #header-text h4 {
+        font-size: 29px;
+    }
+
+    #header-text p {
+        font-size: 17px;
+    }
+
+    #header-text .location-button {
+        padding: 20px 50px;
+    }
+
+
+    .register {
+
+        font-size: 17px;
+    }
+
+    /* Pharmacy Section - max-width 767px */
+    .pharmacy-section {
+        display: flex;
+        flex-direction: column;
+        /* Stack image and text vertically */
+        align-items: center;
+        /* Center the content horizontally */
+        padding: 0;
+        /* Add padding for better spacing */
+    }
+
+    .pharma-img {
+        width: 100%;
+        /* Ensure the image takes full width */
+        margin-bottom: 20px;
+        /* Add space below the image */
+    }
+
+    .pharma-img img {
+        width: 70%;
+        /* Ensure image scales properly */
+        height: auto;
+        /* Maintain aspect ratio */
+    }
+
+    .pharma-texts {
+        width: 100%;
+        /* Ensure text section takes full width */
+        padding: 0 20px;
+        /* Add padding for better text spacing */
+        text-align: center;
+        /* Center align text */
+    }
+
+    .pharma-texts h2 {
+        font-size: 22px;
+        /* Adjust heading font size */
+        margin-bottom: 20px;
+        /* Space below the heading */
+        color: #333;
+        /* Heading color */
+        line-height: 1.3;
+    }
+
+    .pharma-texts p {
+        font-size: 15px;
+        /* Adjust paragraph font size */
+        line-height: 1.6;
+        /* Improve readability */
+        color: #555;
+        /* Text color */
+        margin-bottom: 20px;
+        /* Add space below paragraphs */
+    }
+
+    .about-pharma {
+        font-size: 16px;
+        /* Button font size */
+        padding: 12px 30px;
+        /* Button padding */
+        background-color: #005153;
+        /* Button background color */
+        color: #fff;
+        /* Button text color */
+        border: none;
+        /* Remove button border */
+        border-radius: 5px;
+        /* Rounded button corners */
+        display: inline-flex;
+        /* Align text and icon in a line */
+        align-items: center;
+        /* Vertically center the text and icon */
+        justify-content: center;
+        /* Center the button content */
+        text-decoration: none;
+        /* Remove underline from the link */
+    }
+
+    .about-pharma i {
+        margin-left: 8px;
+        /* Add space between button text and icon */
+        font-size: 1.2rem;
+        /* Adjust icon size */
+    }
+
+    .pharma-texts {
+        flex: 1;
+        max-width: 95%;
+    }
+
+    .pharma-texts h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        color: #333;
+        line-height: 1.3;
+    }
+
+    .pharma-texts p:first-child {
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    #about-conference {
+        padding: 15px;
+    }
+
+    .conference-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .conference-text {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .conference-text h2 {
+        margin-block: 15px;
+        font-size: 22px;
+        color: #333;
+    }
+
+    .conference-text p {
+        font-size: 15px;
+        line-height: 1.6;
+        text-align: justify;
+        color: #555;
+        margin-bottom: 20px;
+    }
+
+    .conference-img {
+        width: 100%;
+        /* display: flex; */
+        /* justify-content: center; */
+    }
+
+    .conference-img img {
+        width: 90%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    button {
+        font-size: 16px;
+        padding: 12px 30px;
+        background-color: #005153;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+
+    .conference-text p:first-child {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .conference-text {
+        flex: 1;
+        max-width: 90%;
+        padding-right: 0;
+    }
+
+    .conference-text h2 {
+        margin-block: 20px;
+        font-size: 30px;
+    }
+
+    button {
+        width: 35%;
+    }
+
+    .conference-img img {
+        width: 400px;
+        /* margin-bottom: 45px; */
+    }
+
+
+    .speaking-about button {
+        padding: 22px 110px;
+        font-size: 18px;
+        width: 75%;
+    }
+
+    /* .keynote-speakers {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+        margin-top: 40px;
+    } */
+
+    #header-text .location-button {
+        width: 95%;
+    }
+
+
+    .org-team-1,
+    .org-team-2 {
+        width: 100%;
+    }
+
+    .team-details {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .speaker-name {
+        flex-direction: row;
+        align-items: flex-start;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .speaker-name img {
+        margin-bottom: 10px;
+    }
+
+    .speaker-name p {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .org-team-1 h1,
+    .org-team-2 h1 {
+        font-size: 25px;
+    }
+
+    #cta-section {
+        padding: 80px 20px;
+    }
+
+    .footer-container {
+        padding: 10px 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .footer-left,
+    .footer-right {
+        width: 70%;
+
+    }
+
+    .footer-logo img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer-left .mail-info,
+    .footer-left .contact-info {
+        font-size: 14px;
+    }
+
+    .footer-right h2 {
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    .footer-right p {
+        font-size: 16px;
+    }
+
+    .subfooter-text {
+        font-size: 15px;
+    }
+
+    #speakers-section {
+        overflow: hidden;
+    }
+}
+
+
+/* Responsive Design for Max Width 450px */
+@media (max-width: 450px) {
+
+    /* Hamburger Icon (Mobile Only) */
+    .hamburger {
+        display: block;
+        /* Visible on mobile */
+        cursor: pointer;
+        font-size: 24px;
+        z-index: 1010;
+    }
+
+    /* Fullscreen Nav Links (Mobile) */
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        /* Start off-screen to the left */
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        /* Background overlay */
+        z-index: 1000;
+        gap: 30px;
+        transition: all 0.3s ease-in-out;
+        /* Smooth transition */
+    }
+
+    /* Nav links visible */
+    .nav-links.show {
+        left: 0;
+        /* Slide into view */
+    }
+
+    /* Adjusting Font Size for Mobile */
+    .nav-links ul {
+        flex-direction: column;
+        /* Stack links vertically */
+    }
+
+    .nav-links ul li {
+        margin: 15px 0;
+    }
+
+    .nav-links ul li a {
+        font-size: 20px !important;
+        /* Correct font size */
+        color: white;
+    }
+
+    nav .logo img {
+        height: 50px;
+    }
+
+    header {
+        height: auto;
+    }
+
+    #header-text {
+        margin-top: 20px;
+        padding-inline: 20px;
+    }
+
+    #header-text p {
+        font-size: 15px;
+    }
+
+    #header-text h1 {
+        font-size: 42px;
+    }
+
+    #header-text h4 {
+        font-size: 25px;
+    }
+
+    #header-text .location-button {
+        flex-direction: column;
+        /* Stack items vertically */
+        padding: 8px 20px;
+        /* Adjust padding for smaller screens */
+        text-align: center;
+        /* Center-align text for better presentation */
+        gap: 15px;
+        /* Adjust gap between elements */
+    }
+
+    #header-text .location-button .date,
+    #header-text .location-button .venue {
+        justify-content: center;
+        /* Center-align icons and text */
+    }
+
+    .register {
+
+        font-size: 16px;
+        margin-block: 20px;
+        width: 70%;
+        padding: 17px 20px;
+    }
+
+    #hoster-section-1 {
+        padding: 4rem 20px;
+        background-position: top right;
+        background-size: 86%;
+    }
+
+    .parul-main h1 {
+        font-size: 25px;
+    }
+
+    .parul-main p {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .pharmacy-section {
+        flex-direction: column;
+        /* Stack image and text vertically */
+        align-items: center;
+        /* Center align for a clean look */
+    }
+
+    .pharma-img {
+        flex: none;
+        /* Reset flex-grow/shrink behavior */
+        width: 100%;
+        /* Take full width */
+    }
+
+    .pharma-img img {
+        width: 100%;
+        /* Ensure image scales properly */
+        height: auto;
+        /* Maintain aspect ratio */
+    }
+
+    .pharma-texts {
+        flex: none;
+        /* Reset flex-grow/shrink behavior */
+        max-width: 100%;
+        /* Adjust text container width */
+        padding: 0;
+        /* Add some spacing around the text */
+    }
+
+    #about-conference button {
+        padding: 10px 30px;
+        font-size: 16px;
+        width: 50%;
+        margin-block: 30px;
+    }
+
+    .pharma-texts h2 {
+        font-size: 24px;
+        /* Adjust font size for small screens */
+    }
+
+    .pharma-texts p {
+        font-size: 14px;
+        /* Adjust paragraph font size */
+        line-height: 1.5;
+    }
+
+    .about-pharma {
+        font-size: 16px;
+        /* Adjust button font size */
+        padding: 10px 5px;
+        width: 50%;
+    }
+
+
+    #about-conference {
+        padding: 20px;
+        /* Reduce padding for smaller screens */
+    }
+
+    .conference-container {
+        flex-direction: column;
+        /* Stack content vertically */
+        align-items: center;
+        /* Center align content */
+    }
+
+    .conference-text {
+        flex: none;
+        /* Reset flex behavior */
+        max-width: 100%;
+        /* Allow text to take full width */
+        padding-right: 0;
+        /* Remove padding */
+        padding-bottom: 20px;
+        /* Add space between text and image */
+    }
+
+    .conference-text h2 {
+        margin-block: 15px;
+        font-size: 30px;
+        /* Adjust heading font size */
+    }
+
+    .conference-text p {
+        font-size: 14px;
+        /* Adjust paragraph font size */
+        line-height: 1.5;
+        /* Adjust line height for readability */
+        text-align: justify;
+        /* Keep text justified */
+    }
+
+    .conference-img {
+        /* flex: none; */
+        /* Reset flex behavior */
+        max-width: 100%;
+        /* Image should take full width */
+        padding-left: 0;
+        /* Remove padding */
+        /* display: flex; */
+        /* Center the image horizontally */
+        justify-content: center;
+    }
+
+    .conference-img img {
+        width: 100%;
+        /* Make image slightly smaller */
+        height: auto;
+        /* Maintain image aspect ratio */
+        border-radius: 5px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px 30px;
+        /* Adjust padding */
+        width: 50%;
+    }
+
+    .conference-container {
+        gap: 16px;
+    }
+
+
+
+    #speakers-section {
+        padding: 50px 20px;
+        /* Reduced padding for smaller screens */
+    }
+
+    .speaking-about h1 {
+        font-size: 28px;
+        /* Adjust heading font size for smaller screens */
+    }
+
+    .speaking-about p {
+        font-size: 14px;
+        /* Adjust paragraph font size */
+        margin-bottom: 20px;
+        /* Reduce space */
+        line-height: 1.4;
+    }
+
+    .speaking-about button {
+        font-size: 15px;
+        /* Adjust button font size */
+        padding: 15px 20px;
+        /* Reduce button padding */
+        margin-top: 15px;
+    }
+
+    .speaking-about button i {
+        font-size: 18px;
+        /* Adjust icon size */
+    }
+
+    .speaker-icons {
+        font-size: 20px;
+        /* Adjust font size for speaker icon */
+    }
+
+    /* .keynote-speakers {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        margin-top: 30px;
+    } */
+
+    .keynote-speakers img {
+        width: 100%;
+        /* Ensure images take up full width */
+        height: auto;
+        object-fit: cover;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .keynote-speakers img:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .speaker-icons::before,
+    .speaker-icons::after {
+        width: 30px;
+        /* Shorten the lines */
+    }
+
+    .speaker-icons::before {
+        left: 35%;
+    }
+
+    .speaker-icons::after {
+        right: 35%;
+    }
+
+    #speakers-section .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 0;
+    }
+
+
+    #organizers {
+        background-color: #f4f4f4;
+        padding: 50px 0;
+    }
+
+    #organizers .organizers-container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .org-team-1,
+    .org-team-2 {
+        width: 48%;
+        margin-bottom: 30px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .org-team-1 h1,
+    .org-team-2 h1 {
+        font-size: 26px;
+        color: #152d35;
+        margin-bottom: 20px;
+        text-align: left;
+        font-weight: bold;
+        font-family: "Libre Franklin";
+    }
+
+    .team-details {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    .speaker-name {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .speaker-name img {
+        width: 16px;
+        height: 15px;
+        margin-right: 8px;
+    }
+
+    .speaker-name p {
+        font-size: 16px;
+        color: #333;
+        margin: 0;
+    }
+
+
+    .org-team-1,
+    .org-team-2 {
+        width: 100%;
+    }
+
+    .team-details {
+        grid-template-columns: 1fr;
+    }
+
+    .speaker-name {
+        flex-direction: row;
+        align-items: flex-start;
+
+    }
+
+    .speaker-name img {
+        margin-bottom: 10px;
+    }
+
+    .speaker-name p {
+        font-size: 14px;
+    }
+
+
+    #cta-section {
+        padding: 50px 20px;
+    }
+
+    .cta-container h2 {
+        font-size: 29px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .cta-container p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .btn-grp {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .btn-grp button {
+        width: 80%;
+        padding: 12px 15px;
+        font-size: 16px;
+        margin: auto;
+    }
+
+    .btn-grp button i {
+        font-size: 16px;
+    }
+
+
+    footer {
+        padding: 40px 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left {
+        width: 100%;
+        align-items: center;
+    }
+
+    .footer-left .mail-info,
+    .footer-left .contact-info {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .footer-logo img {
+        width: 100%;
+    }
+
+    .footer-right {
+        width: 100%;
+        align-items: center;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .footer-right h2 {
+        font-size: 16px;
+    }
+
+    .footer-right p {
+        font-size: 13px;
+    }
+
+    #subfooter {
+        padding: 25px 10px;
+
+    }
+
+    #subfooter .subfooter-text {
+        text-align: center;
+    }
+
+
+
+
+
+
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.blinking-css .item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#trust-slider .item {
+    display: flex !important;
+    align-items: center;
+    border: 1px solid #edc031;
+    border-radius: 5px;
+    padding: 10px;
+    gap: 10px;
+}
+
+#trust-slider .item h4 {
+    line-height: 1.3;
+    /* color: #1d998d; */
+}
+
+#trust-slider .item img {
+    width: 18px;
+    height: 19px;
+    border-radius: 0px !important;
+}
+
+/* countdowncss */
+
+.countdown {
+    text-transform: upperacse;
+}
+
+.countdown ul {
+    display: grid;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.countdown li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #22b6af;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.countdown li span {
+    color: #d4f4f3;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.countdown-sec .col-lg-12 {
+    background-color: #005153;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Organization section */
+.org-item {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    display: grid !important;
+    gap: 10px;
+}
+
+.keynote-speakers-flex {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin: 40px 0px;
+}
+
+.keynote-speakers-flex img,
+#keynote-slider img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.team-details-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.team-details-data .speaker-name {
+    margin: 10px 0px;
+}
+
+.bg-dark-green {
+    background: #1e2d34;
+}
+
+.bg-dark-green p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.team-details-data .col-lg-6:first-child .speaker-name {
+    border: 1px solid #1e2d34;
+}
+
+.team-details-data .col-lg-6:first-child p {
+    color: #1e2d34;
+    font-weight: 700;
+}
+
+.visit-places h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 20px;
+    font-family: "Libre Franklin";
+}
+
+.visit-places p {
+    font-size: 16px;
+    line-height: 1.54;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.visit-places .img-box{
+    margin-bottom: 20px;
+}
+
+.visit-places .img-box img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.visit-places .img-box h3 {
+    background-color: #026095;
+    color: #fff;
+    margin: 0px;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.4em;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.guidelines-points {
+    position: relative;
+}
+
+.abs-qr {
+    width: 150px;
+    position: absolute;
+    top: 25%;
+    right: 50px;
+}
+
+#header-text {
+    position: relative;
+}
+
+.pickop-img {
+    position: absolute;
+    right: 32%;
+    top: 15px;
+    background: #f3f3f3;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.pickop-img img {
+    width: 200px;
+}

@@ -1,0 +1,174 @@
+header {
+    background-color: #edc031;
+}
+
+nav .logo .conference-logo {
+    display: none;
+}
+
+.hero-preconference {
+    position: relative;
+    background: url("./assets/images/banners/4725.jpg") no-repeat center center/cover;
+    /* height: 100vh; */
+    width: 100%;
+
+}
+
+.hero-preconference .container {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-preconference::before {
+    content: "";
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+
+.preconference-header-text {
+    text-align: center;
+    margin: auto;
+}
+
+.preconference-header-text h1 {
+    font-weight: 700;
+    color: #fff;
+    margin-top: 80px;
+    letter-spacing: 1px;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+
+/* call-for-paper-section */
+
+#call-for-paper {
+    background-color: #f7f8f9;
+    /* background-image: url("./assets/images/submisson-call-for-paper-background.png"); */
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    padding: 60px 10px;
+}
+
+.call-for-paper-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.call-for-paper-img {
+    flex: 1;
+
+    text-align: center;
+}
+
+.call-for-paper-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.call-for-paper-right img {
+    width: 100%;
+
+}
+
+.content {
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 32px;
+    margin: 30px 0px;
+}
+
+.content a {
+    color: #fff;
+    padding: 10px 50px;
+}
+
+.call-for-paper-container .col-lg-4 {
+    margin-top: 30px;
+}
+
+.call-for-paper-container .col-lg-4 img {
+    width: 100%;
+}
+
+@media (max-width : 767px) {
+    .call-for-paper-container {
+        flex-direction: column;
+    }
+
+    .call-for-paper-container .col-lg-4 {
+        max-width: 100%;
+    }
+
+    .call-for-paper-img {
+        max-width: 100%;
+    }
+
+    .call-for-paper-right {
+        max-width: 100%;
+    }
+
+    .preconference-header-text h1 {
+        font-size: 50px;
+    }
+
+    .hero-preconference {
+        padding: 50px 10px;
+    }
+
+    nav .logo .conference-logo {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+    .call-for-paper-container .col-lg-4 {
+        max-width: 48%;
+    }
+
+    .preconference-header-text h1 {
+        font-size: 52px;
+    }
+
+    .hero-preconference {
+        padding: 75px 20px;
+    }
+}
+
+@media (min-width : 1024px) {
+    .hero-preconference {
+        padding: 100px 100px 150px;
+    }
+
+    .call-for-paper-right img {
+
+        height: 550px;
+        object-fit: cover;
+    }
+
+    .call-for-paper-container .col-lg-4 {
+        max-width: 32%;
+    }
+
+    .call-for-paper-img {
+        max-width: 50%;
+    }
+
+    .call-for-paper-right {
+        max-width: 50%;
+    }
+
+    .preconference-header-text h1 {
+        font-size: 60px;
+    }
+}

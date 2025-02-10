@@ -1,0 +1,901 @@
+header {
+    background-color: #edc031;
+
+}
+
+section.hero-about {
+    position: relative;
+    background: url("./assets/images/about-background.png") no-repeat center center/cover;
+    /* height: 100vh; */
+    width: 100%;
+    padding: 50px 0px 50px;
+}
+
+
+.about-header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    max-width: 600px;
+    margin: 0;
+    padding: 20px;
+}
+
+.about-header-text h1 {
+    margin-top: 50px;
+    font-size: 3.5rem;
+    color: white;
+    margin-bottom: 20px;
+
+    font-family: "Libre Franklin";
+}
+
+.about-header-text .location-button {
+    background: transparent;
+    border: 2px solid white;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 22px;
+    /* flex-direction: column; */
+    width: 100%;
+    border: 1px solid #9e9e9e;
+}
+
+/* .about-header-text .location-button .date,
+.about-header-text .location-button .venue {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+} */
+
+
+/* about hoster section */
+
+#hoster-section-1 {
+    padding: 4rem 20px 0rem;
+    background-color: #ffffff;
+    color: #333;
+    background-image: url(./assets/images/decoration-shape.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
+.parul-main {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* about the conference section */
+
+
+
+
+#about-the-conference {
+    padding: 80px 0;
+    background-color: #f7f8f9;
+
+    background: url("./assets/images/Vector.png");
+    background-repeat: no-repeat;
+    background-position: 40%;
+    background-size: 40%;
+}
+
+.about-conference-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-conference-left {
+    flex: 1 1 50%;
+    max-width: 600px;
+}
+
+.about-conference-left p:first-child {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #edc031;
+    /* Highlight the first paragraph */
+    margin-bottom: 10px;
+}
+
+.about-conference-left h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #333;
+
+
+    font-family: "Libre Franklin";
+}
+
+.about-conference-left p {
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.about-conference-left button {
+    background-color: #155aa6;
+    color: white;
+    padding: 20px 50px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.about-conference-left button a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.about-conference-left button a i {
+    margin-left: 5px;
+}
+
+.about-conference-right {
+    flex: 1 1 40%;
+    text-align: center;
+}
+
+.about-conference-right img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* aim of the conference */
+
+
+#aim-of-the-conference {
+    background-color: #026095;
+    /* Light background for contrast */
+    padding: 50px 0;
+}
+
+.aim-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    /* Center-aligns text */
+}
+
+
+
+.aim-container p:first-child {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    /* Highlighted text color */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.aim-container h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 37px;
+    margin-top: 10px;
+
+    font-family: "Libre Franklin";
+}
+
+.aim-container p:last-child {
+    font-size: 16px;
+    line-height: 1.8;
+    /* Spacing between lines for readability */
+    color: #fff;
+    text-align: left;
+    /* Left-aligns the bullet points for clarity */
+    margin-top: 20px;
+    max-width: 900px;
+    /* Limit width for better readability */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.aim-container p:last-child {
+    font-size: 19px;
+}
+
+.aim-container p:last-child br {
+    content: "";
+    /* Ensures the br is styled */
+    display: block;
+    margin-bottom: 20px;
+    /* Add spacing after each br */
+}
+
+
+/* cta section */
+
+
+#about-cta-section {
+    background: url("./assets/images/about-cta-background.png") no-repeat center center/cover;
+}
+
+#about-cta-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#about-cta-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about-cta-section h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #fff;
+    margin-bottom: 30px;
+
+    font-family: "Libre Franklin";
+}
+
+#about-cta-section button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 17px 40px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#about-cta-section button:hover {
+    background-color: #0056b3;
+}
+
+#about-cta-section button a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+#about-cta-section button i {
+    font-size: 16px;
+}
+
+
+/* hightlights section */
+#conference-highlights {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#conference-highlights .container {
+    margin: 0 auto;
+}
+
+#conference-highlights h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #152d35;
+    font-family: "Libre Franklin";
+}
+
+#conference-highlights .highlights-details {
+    margin-top: 30px;
+    text-align: left;
+    line-height: 1.8;
+    font-size: 18px;
+    color: #555;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    column-gap: 30px;  /* Adds space between columns */
+    row-gap: 10px;  /* Adds space between rows */
+}
+
+#conference-highlights .highlights-details p {
+    margin-bottom: 10px;
+}
+
+#conference-highlights .highlights-details b {
+    color: #222;
+}
+
+.conference-highlights p span{
+    font-size: 20px;
+    color: #ffb02e;
+}
+
+/* footer section */
+
+
+/* footer section */
+
+footer {
+    background-color: #026095;
+    /* Dark background color */
+    color: #fff;
+    /* White text color */
+    padding: 45px 20px;
+    /* Spacing around the footer */
+}
+
+.footer-container {
+    display: flex;
+    /* Use Flexbox for layout */
+    justify-content: space-between;
+    /* Space out the left and right sections */
+    align-items: flex-start;
+    /* Align items at the top */
+    max-width: 1280px;
+    /* Limit the width of the content */
+    margin: 0 auto;
+    /* Center the container horizontally */
+    gap: 30px;
+    /* Add space between left and right sections */
+}
+
+.footer-left,
+.footer-right {
+    flex: 1;
+    /* Allow both sections to take equal width */
+    max-width: 600px;
+    /* Optionally set a max width */
+}
+
+.footer-logo img {
+    width: 350px;
+    /* Adjust logo size */
+    margin-bottom: 20px;
+    /* Add space below the logo */
+}
+
+.footer-left p {
+    line-height: 1.6;
+    /* Improve readability */
+    font-size: 1rem;
+    /* Adjust text size */
+    color: #fff;
+    /* Slightly lighter text color */
+}
+
+.footer-right {
+    margin-left: 50px;
+}
+
+.footer-right h4 {
+    font-size: 1rem;
+    /* Adjust heading size */
+    margin-bottom: 10px;
+    /* Add space below the heading */
+    color: #edc031;
+    /* Keep heading white */
+
+    text-transform: uppercase;
+}
+
+.footer-right p {
+    font-size: 15px;
+    color: #fff;
+    /* Lighter text color */
+}
+
+.footer-mail {
+    margin-top: 10px;
+}
+
+.footer-mail,
+.footer-phone {
+    display: flex;
+    /* Align icon and text in a row */
+    align-items: center;
+    /* Vertically center align */
+    gap: 10px;
+    /* Add space between icon and text */
+
+}
+
+.footer-mail i,
+.footer-phone i {
+    color: #edc031;
+    /* Icon color */
+    font-size: 1.2rem;
+    /* Adjust icon size */
+}
+
+.footer-mail p,
+.footer-phone p {
+    margin: 0;
+    /* Remove default margin */
+    color: #fff;
+    /* Lighter text color */
+    font-size: 1rem;
+    /* Adjust font size */
+}
+
+
+
+/* media  */
+
+/* Hamburger Icon (Mobile Only) */
+.hamburger {
+    display: none;
+    /* Hidden on desktop */
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 1010;
+}
+
+
+@media (max-width : 991px) {
+
+    /* Hamburger Icon (Mobile Only) */
+    .hamburger {
+        display: block;
+        /* Visible on mobile */
+        cursor: pointer;
+        font-size: 24px;
+        z-index: 1010;
+    }
+
+    /* Fullscreen Nav Links (Mobile) */
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        /* Start off-screen to the left */
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        /* Background overlay */
+        z-index: 1000;
+        gap: 30px;
+        transition: all 0.3s ease-in-out;
+        /* Smooth transition */
+    }
+
+    /* Nav links visible */
+    .nav-links.show {
+        left: 0;
+        /* Slide into view */
+    }
+
+    /* Adjusting Font Size for Mobile */
+    .nav-links ul {
+        flex-direction: column;
+        /* Stack links vertically */
+    }
+
+    .nav-links ul li {
+        margin: 15px 0;
+    }
+
+    .nav-links ul li a {
+        font-size: 20px !important;
+        /* Correct font size */
+        color: white;
+    }
+
+    nav .logo img {
+        height: 60px;
+    }
+
+    /* header{
+        height: 65vh;
+    } */
+
+    #about-the-conference {
+        padding: 80px 30px;
+        background-color: #f7f8f9;
+        background: url(./assets/images/Vector.png);
+        background-repeat: no-repeat;
+        background-position: 40%;
+        background-size: 75%;
+    }
+
+    
+    #conference-highlights .highlights-details {
+        grid-template-columns: 1fr; /* Stacks the items on smaller screens */
+    }
+
+
+}
+
+
+@media (max-width : 767px) {
+
+    /* Hamburger Icon (Mobile Only) */
+    .hamburger {
+        display: block;
+        /* Visible on mobile */
+        cursor: pointer;
+        font-size: 24px;
+        z-index: 1010;
+    }
+
+    /* Fullscreen Nav Links (Mobile) */
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        /* Start off-screen to the left */
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        /* Background overlay */
+        z-index: 1000;
+        gap: 30px;
+        transition: all 0.3s ease-in-out;
+        /* Smooth transition */
+    }
+
+    /* Nav links visible */
+    .nav-links.show {
+        left: 0;
+        /* Slide into view */
+    }
+
+    /* Adjusting Font Size for Mobile */
+    .nav-links ul {
+        flex-direction: column;
+        /* Stack links vertically */
+    }
+
+    .nav-links ul li {
+        margin: 15px 0;
+    }
+
+    .nav-links ul li a {
+        font-size: 20px !important;
+        /* Correct font size */
+        color: white;
+    }
+
+    nav .logo img {
+        height: 50px;
+    }
+
+    .about-header-text h1 {
+        margin-top: 50px;
+        font-size: 3rem;
+    }
+
+    #about-the-conference {
+        padding: 40px 20px;
+        background-size: 60%;
+        /* Adjust background for smaller screens */
+        background-position: center;
+    }
+
+    .about-conference-container {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-conference-left {
+        flex: 1 1 auto;
+        max-width: 100%;
+    }
+
+    .about-conference-left p:first-child {
+        font-size: 0.9rem;
+        margin-bottom: 8px;
+    }
+
+    .about-conference-left h2 {
+        font-size: 2rem;
+        margin: 20px 0;
+    }
+
+    .about-conference-left p {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+
+    .about-conference-left button {
+        padding: 15px 30px;
+        font-size: 0.8rem;
+        margin-block: 20px;
+    }
+
+    .about-conference-left button a {
+        font-size: 0.8rem;
+        letter-spacing: 0.5px;
+    }
+
+    .about-conference-right {
+        flex: 1 1 auto;
+        width: 100%;
+    }
+
+    .about-conference-right img {
+        max-width: 65%;
+        margin: 0 auto;
+    }
+
+    .about-conference-left p:first-child {
+        font-size: 1rem;
+        margin-bottom: 8px;
+    }
+
+
+
+
+
+    .aim-container p:last-child {
+        font-size: 18px;
+    }
+
+    #about-cta-section button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 17px 20px;
+        font-size: 15px;
+        font-weight: 600;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        transition: background-color 0.3s ease;
+        text-align: center;
+        width: 200px;
+        justify-content: center;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1100px;
+        margin: 0 auto;
+        gap: 30px;
+    }
+
+    .footer-right {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .footer-mail,
+    .footer-phone {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 450px) {
+
+    /* Hamburger Icon (Mobile Only) */
+    .hamburger {
+        display: block;
+        /* Visible on mobile */
+        cursor: pointer;
+        font-size: 24px;
+        z-index: 1010;
+    }
+
+    /* Fullscreen Nav Links (Mobile) */
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        /* Start off-screen to the left */
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        /* Background overlay */
+        z-index: 1000;
+        gap: 30px;
+        transition: all 0.3s ease-in-out;
+        /* Smooth transition */
+    }
+
+    /* Nav links visible */
+    .nav-links.show {
+        left: 0;
+        /* Slide into view */
+    }
+
+    /* Adjusting Font Size for Mobile */
+    .nav-links ul {
+        flex-direction: column;
+        /* Stack links vertically */
+    }
+
+    .nav-links ul li {
+        margin: 15px 0;
+    }
+
+    .nav-links ul li a {
+        font-size: 20px !important;
+        /* Correct font size */
+        color: white;
+    }
+
+    nav .logo img {
+        height: 50px;
+    }
+
+    /* header{
+        height: 60vh;
+    } */
+
+    .about-header-text h1 {
+        margin-top: 30px;
+        font-size: 2.7rem;
+    }
+
+    .about-header-text .location-button {
+        padding: 20px 25px;
+        font-size: 18px;
+    }
+
+
+    #about-the-conference {
+        padding: 40px 20px;
+        background-size: 80%;
+        /* Adjust background size for smaller screens */
+        background-position: center top;
+        /* Center the background */
+    }
+
+    .about-conference-container {
+        flex-direction: column;
+        /* Stack items vertically */
+        gap: 20px;
+    }
+
+    .about-conference-left {
+        flex: 1 1 100%;
+        max-width: 100%;
+        /* Ensure it spans the full width */
+        text-align: center;
+        /* Center-align text for smaller screens */
+    }
+
+    .about-conference-left p:first-child {
+        font-size: 0.9rem;
+        /* Slightly smaller font size */
+        margin-bottom: 5px;
+    }
+
+    .about-conference-left h2 {
+        font-size: 1.9rem;
+        /* Reduce the font size */
+        margin: 20px 0;
+    }
+
+    .about-conference-left p {
+        font-size: 0.9rem;
+        /* Adjust paragraph font size */
+        line-height: 1.6;
+        text-align: left;
+    }
+
+    .about-conference-left button {
+        padding: 15px 30px;
+        /* Reduce padding for smaller buttons */
+        font-size: 0.8rem;
+        /* Adjust font size */
+    }
+
+    .about-conference-right {
+        flex: 1 1 100%;
+        text-align: center;
+        /* Center-align image */
+    }
+
+    .about-conference-right img {
+        max-width: 90%;
+        /* Reduce image size to fit smaller screens */
+        height: auto;
+    }
+
+    #about-the-conference {
+        background-position: 40% 30%;
+        background-size: 100%;
+    }
+
+
+    .aim-container h2 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 37px;
+        margin-top: 30px;
+
+    }
+
+    .aim-container p:last-child {
+        font-size: 16px;
+    }
+
+    #conference-highlights h1 {
+        font-size: 30px;
+    }
+
+    #about-cta-section h1 {
+        font-size: 28px;
+        margin-bottom: 30px;
+
+    }
+
+    footer {
+        padding: 30px 20px;
+    }
+
+    .footer-container {
+        gap: 15px;
+    }
+
+    .footer-logo img {
+        width: 100%;
+    }
+
+    .footer-left p {
+        font-size: 0.85rem;
+    }
+
+    .footer-right h4 {
+        font-size: 0.9rem;
+    }
+
+    .footer-right p {
+        font-size: 0.85rem;
+    }
+
+    .footer-mail i,
+    .footer-phone i {
+        font-size: 1.1rem;
+    }
+
+    .footer-right {
+        margin-left: 0;
+    }
+
+
+}

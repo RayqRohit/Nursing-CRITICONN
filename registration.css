@@ -1,0 +1,683 @@
+header {
+    background-color: #22b6af;
+}
+.hero-registration{
+    position: relative;
+    background: url("./assets/images/registration-background.png");
+    /* height: 100vh; */
+    width: 100%;
+    padding: 50px 0px 100px;
+}
+
+
+.registration-header-text {
+    text-align: center;
+    margin-bottom: 40px;
+    margin: auto;
+
+}
+
+.registration-header-text h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 80px;
+    letter-spacing: 1px;
+
+    font-family: "Libre franklin", sans-serif;
+}
+
+
+
+/* fee details */
+
+#fee-details {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#fee-details h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+    font-family: "Libre franklin";
+}
+
+.fee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fee-table th,
+.fee-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.fee-table th {
+    background-color: #152d35;
+    color: white;
+    font-size: 18px;
+}
+
+.fee-table td {
+    font-size: 16px;
+    color: #333;
+}
+
+.fee-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.fee-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* for registration */
+
+#registration-deadlines {
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#registration-deadlines h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+    font-family: "Libre franklin";
+}
+
+.deadlines-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.deadlines-table th,
+.deadlines-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.deadlines-table th {
+    background-color: #152d35;
+    color: white;
+    font-size: 18px;
+}
+
+.deadlines-table td {
+    font-size: 16px;
+    color: #333;
+}
+
+.deadlines-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.deadlines-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* registration details */
+
+#registration-details {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#registration-details h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 30px;
+
+
+    font-family: "Libre franklin";
+}
+
+#registration-details .qr-div {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#registration-details .qr-div img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}
+
+#registration-details .register-details {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+#registration-details .register-details p {
+    margin: 15px 0;
+}
+
+#registration-details .register-details a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#registration-details .register-details a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+
+/* payment details */
+
+#payment-details {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#payment-details h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 30px;
+
+
+    font-family: "Libre franklin";
+}
+
+#payment-details .details-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#payment-details .bank-details {
+    max-width: 400px;
+    text-align: left;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+}
+
+#payment-details .bank-details p {
+    margin: 10px 0;
+}
+
+#payment-details .qr-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+
+#payment-details .qr-div img {
+    width: 250px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+#payment-details .qr-div p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+}
+
+/* footer section */
+
+footer {
+    background-color: #152d35;
+    /* Dark background color */
+    color: #fff;
+    /* White text color */
+    padding: 45px 20px;
+    /* Spacing around the footer */
+}
+
+.footer-container {
+    display: flex;
+    /* Use Flexbox for layout */
+    justify-content: space-between;
+    /* Space out the left and right sections */
+    align-items: flex-start;
+    /* Align items at the top */
+    max-width: 1100px;
+    /* Limit the width of the content */
+    margin: 0 auto;
+    /* Center the container horizontally */
+    gap: 30px;
+    /* Add space between left and right sections */
+}
+
+.footer-left,
+.footer-right {
+    flex: 1;
+    /* Allow both sections to take equal width */
+    max-width: 600px;
+    /* Optionally set a max width */
+}
+
+.footer-logo img {
+    width: 350px;
+    /* Adjust logo size */
+    margin-bottom: 20px;
+    /* Add space below the logo */
+}
+
+.footer-left p {
+    line-height: 1.6;
+    /* Improve readability */
+    font-size: 1rem;
+    /* Adjust text size */
+    color: #ccc;
+    /* Slightly lighter text color */
+}
+
+.footer-right {
+    margin-left: 50px;
+}
+
+.footer-right h4 {
+    font-size: 1rem;
+    /* Adjust heading size */
+    margin-bottom: 10px;
+    /* Add space below the heading */
+    color: #fff;
+    /* Keep heading white */
+
+    text-transform: uppercase;
+}
+
+.footer-right p {
+    font-size: 15px;
+    color: #ccc;
+    /* Lighter text color */
+}
+
+.footer-mail {
+    margin-top: 10px;
+}
+
+.footer-mail,
+.footer-phone {
+    display: flex;
+    /* Align icon and text in a row */
+    align-items: center;
+    /* Vertically center align */
+    gap: 10px;
+    /* Add space between icon and text */
+
+}
+
+.footer-mail i,
+.footer-phone i {
+    color: #fff;
+    /* Icon color */
+    font-size: 1.2rem;
+    /* Adjust icon size */
+}
+
+.footer-mail p,
+.footer-phone p {
+    margin: 0;
+    /* Remove default margin */
+    color: #ccc;
+    /* Lighter text color */
+    font-size: 1rem;
+    /* Adjust font size */
+}
+
+/* media */
+
+/* Hamburger Icon (Mobile Only) */
+.hamburger {
+    display: none;
+    /* Hidden on desktop */
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 1010;
+}
+
+@media (max-width : 991px) {
+
+    /* Hamburger Icon (Mobile Only) */
+    .hamburger {
+        display: block;
+        /* Visible on mobile */
+        cursor: pointer;
+        font-size: 24px;
+        z-index: 1010;
+    }
+
+    /* Fullscreen Nav Links (Mobile) */
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        /* Start off-screen to the left */
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        /* Background overlay */
+        z-index: 1000;
+        gap: 30px;
+        transition: all 0.3s ease-in-out;
+        /* Smooth transition */
+    }
+
+    /* Nav links visible */
+    .nav-links.show {
+        left: 0;
+        /* Slide into view */
+    }
+
+    /* Adjusting Font Size for Mobile */
+    .nav-links ul {
+        flex-direction: column;
+        /* Stack links vertically */
+    }
+
+    .nav-links ul li {
+        margin: 15px 0;
+    }
+
+    .nav-links ul li a {
+        font-size: 20px !important;
+        /* Correct font size */
+        color: white;
+    }
+
+    nav .logo img {
+        height: 60px;
+    }
+
+}
+
+
+@media (max-width : 767px) {
+
+    /* Hamburger Icon (Mobile Only) */
+    .hamburger {
+        display: block;
+        /* Visible on mobile */
+        cursor: pointer;
+        font-size: 24px;
+        z-index: 1010;
+    }
+
+    /* Fullscreen Nav Links (Mobile) */
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        /* Start off-screen to the left */
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        /* Background overlay */
+        z-index: 1000;
+        gap: 30px;
+        transition: all 0.3s ease-in-out;
+        /* Smooth transition */
+    }
+
+    /* Nav links visible */
+    .nav-links.show {
+        left: 0;
+        /* Slide into view */
+    }
+
+    /* Adjusting Font Size for Mobile */
+    .nav-links ul {
+        flex-direction: column;
+        /* Stack links vertically */
+    }
+
+    .nav-links ul li {
+        margin: 15px 0;
+    }
+
+    .nav-links ul li a {
+        font-size: 20px !important;
+        /* Correct font size */
+        color: white;
+    }
+
+    nav .logo img {
+        height: 50px;
+    }
+
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1100px;
+        margin: 0 auto;
+        gap: 30px;
+    }
+
+    .footer-right {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .footer-mail,
+    .footer-phone {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+    }
+
+
+}
+
+
+/* Responsive Design for Max Width 450px */
+@media (max-width: 450px) {
+
+    /* Hamburger Icon (Mobile Only) */
+    .hamburger {
+        display: block;
+        /* Visible on mobile */
+        cursor: pointer;
+        font-size: 24px;
+        z-index: 1010;
+    }
+
+    /* Fullscreen Nav Links (Mobile) */
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        /* Start off-screen to the left */
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        /* Background overlay */
+        z-index: 1000;
+        gap: 30px;
+        transition: all 0.3s ease-in-out;
+        /* Smooth transition */
+    }
+
+    /* Nav links visible */
+    .nav-links.show {
+        left: 0;
+        /* Slide into view */
+    }
+
+    /* Adjusting Font Size for Mobile */
+    .nav-links ul {
+        flex-direction: column;
+        /* Stack links vertically */
+    }
+
+    .nav-links ul li {
+        margin: 15px 0;
+    }
+
+    .nav-links ul li a {
+        font-size: 20px !important;
+        /* Correct font size */
+        color: white;
+    }
+
+    nav .logo img {
+        height: 50px;
+    }
+
+    /* header {
+        height: 60vh;
+    } */
+
+    .registration-header-text h1 {
+        font-size: 49px;
+    }
+
+
+    #fee-details {
+        padding: 30px 20px;
+    }
+
+    #fee-details h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .fee-table th,
+    .fee-table td {
+        padding: 2px;
+        font-size: 12px;
+        /* Smaller font size for table content */
+    }
+
+    .fee-table th {
+        font-size: 14px;
+        padding-block: 10px;
+    }
+
+    /* Adjust table layout for better fit */
+    .fee-table {
+        font-size: 12px;
+        /* Adjust text size for mobile */
+    }
+
+    /* Make sure text is wrapped properly on smaller screens */
+    .fee-table td {
+        word-wrap: break-word;
+        padding-block: 10px;
+    }
+
+
+    #fee-details h2 {
+        font-size: 30px;
+        margin-bottom: 23px;
+    }
+
+    #registration-details {
+        padding: 25px 10px;
+    }
+
+    #registration-details h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    #registration-deadlines h2 {
+        font-size: 34px;
+    }
+
+    .deadlines-table th {
+        font-size: 15px;
+    }
+
+    #registration-details {
+        padding: 25px 20px;
+    }
+
+
+    #registration-details .qr-div img {
+        max-width: 185px;
+    }
+
+    #payment-details h1 {
+        font-size: 32px;
+    }
+
+    #payment-details .bank-details {
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 30px 20px;
+    }
+
+    .footer-container {
+        gap: 15px;
+    }
+
+    .footer-logo img {
+        width: 100%;
+    }
+
+    .footer-left p {
+        font-size: 0.85rem;
+    }
+
+    .footer-right h4 {
+        font-size: 0.9rem;
+    }
+
+    .footer-right p {
+        font-size: 0.85rem;
+    }
+
+    .footer-mail i,
+    .footer-phone i {
+        font-size: 1.1rem;
+    }
+
+    .footer-right {
+        margin-left: 0;
+    }
+
+}
