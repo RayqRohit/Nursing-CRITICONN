@@ -1,7 +1,8 @@
 header {
-    background-color: #22b6af;
+    background-color: #edc031;
 }
-.hero-submission{
+
+.hero-submission {
     position: relative;
     background: url("./assets/images/submisson-header-background.png") no-repeat center center/cover;
     /* height: 100vh; */
@@ -27,7 +28,7 @@ header {
 /* call-for-paper-section */
 
 #call-for-paper {
-    background-color: #f7f8f9;
+    background-color: #fff;
     background-image: url("./assets/images/submisson-call-for-paper-background.png");
     background-repeat: no-repeat;
     background-position: top right;
@@ -97,6 +98,7 @@ header {
 
 #submission-guidelines {
     padding: 60px 0;
+    background-color: #f8f9fa;
 
 }
 
@@ -153,6 +155,36 @@ header {
     height: auto;
     object-fit: cover;
     border-radius: 10px;
+}
+
+.guidelines-points .blinking-css-2 {
+    font-size: 13px;
+    margin-left: 5px;
+    color: #f2f2f2;
+}
+
+.blinking-css-2 {
+    animation: blinking1 1300ms infinite;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 15px 0px;
+}
+
+@keyframes blinking1 {
+    0% {
+        background-color: rgba(237, 192, 49, 0.39); /* Light Transparent Gold */
+        box-shadow: 0 0 5px rgba(237, 192, 49, 0.39);
+    }
+
+    50% {
+        background-color: #EDC031; /* Solid Gold */
+        box-shadow: 0 0 20px #EDC031;
+    }
+
+    100% {
+        background-color: #EDC031;
+        box-shadow: 0 0 5px #c9a129; /* Slightly Darker Gold */
+    }
 }
 
 
@@ -398,9 +430,278 @@ header {
 }
 
 
-@media (max-width : 991px){
-     /* Hamburger Icon (Mobile Only) */
-     .hamburger {
+/* abstract-guidelines section */
+#abstract-guidelines {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    /* margin-bottom: 30px; */
+}
+
+#abstract-guidelines .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#abstract-guidelines h2 {
+    text-align: center;
+    color: #152d35;
+    font-size: 35px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+#abstract-guidelines ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#abstract-guidelines ul li {
+
+    padding-left: 30px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #555;
+}
+
+#abstract-guidelines a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#abstract-guidelines ul li span {
+    color: #1d9a96;
+    /* Orange color */
+    font-size: 23px;
+    font-weight: bold;
+    padding-right: 7px;
+}
+
+#abstract-guidelines a:hover {
+    text-decoration: underline;
+}
+
+/* final abstract submission */
+#final-oral-guidelines {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+#final-oral-guidelines .container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#final-oral-guidelines h2 {
+    text-align: center;
+    color: #152d35;
+    font-size: 35px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+#final-oral-guidelines ul {
+
+    padding: 0;
+}
+
+#final-oral-guidelines ul li {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.3;
+}
+
+#final-oral-guidelines ul li::marker {
+    color: #1d9a96;
+    /* Your custom bullet color */
+    font-size: 25px;
+    /* Optional: Adjust the bullet size */
+}
+
+#final-oral-guidelines ul li span {
+    color: #1d9a96;
+    /* Same color for consistency */
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 7px;
+
+}
+
+#final-oral-guidelines ul li strong {
+    color: #333;
+    font-weight: bold;
+}
+
+
+/* award section */
+
+/* Awards and Competition Section */
+#awards-competition {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.awards-competition-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.awards-competition-container h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ffb02e;
+    margin-bottom: 40px;
+}
+
+.awards-section, .competition-section {
+    margin-bottom: 40px;
+}
+
+.awards-section h2, .competition-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.awards-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.awards-section ul li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.awards-section ul li span {
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.competition-details {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.competition-details h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.competition-details p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.competition-image {
+    max-width: 80%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.competition-winners {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.competition-winners h3 {
+    font-size: 1.8rem;
+    color: #ffb02e;
+    margin-bottom: 45px;
+}
+
+.winner-prizes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+
+
+}
+
+.winner {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    flex: 1 1 30%;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.winner:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.winner p:first-child {
+    font-size: 3rem;
+    margin: 0;
+    color: #ffcc00; /* Gold color for the emoji */
+}
+
+.winner h4 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 15px 0 10px;
+}
+
+.winner p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+.winner p:last-child {
+    font-weight: bold;
+    color: #ffb02e;
+}
+
+/* Specific colors for each winner */
+.winner:nth-child(1) p:first-child {
+    color: #ffcc00; /* Gold for 1st place */
+}
+
+.winner:nth-child(2) p:first-child {
+    color: #c0c0c0; /* Silver for 2nd place */
+}
+
+.winner:nth-child(3) p:first-child {
+    color: #cd7f32; /* Bronze for 3rd place */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .winner-prizes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .winner {
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width : 991px) {
+
+    /* Hamburger Icon (Mobile Only) */
+    .hamburger {
         display: block;
         /* Visible on mobile */
         cursor: pointer;
@@ -464,27 +765,33 @@ header {
     }
 
     #submission-guidelines {
-        padding: 50px 30px; /* Adjusted padding for medium screens */
+        padding: 50px 30px;
+        /* Adjusted padding for medium screens */
     }
 
     .submisson-guidelines-container {
         display: flex;
-        flex-direction: column-reverse; /* Stack image and text vertically on medium screens */
+        flex-direction: column-reverse;
+        /* Stack image and text vertically on medium screens */
         align-items: center;
         justify-content: center;
-        gap: 30px; /* Adjusted gap */
+        gap: 30px;
+        /* Adjusted gap */
         margin: 0 auto;
     }
 
     .guidelines-details {
         flex: 1;
-        max-width: 90%; /* Adjusted width for text container */
+        max-width: 90%;
+        /* Adjusted width for text container */
         color: #333;
-        text-align: center; /* Center align text */
+        text-align: center;
+        /* Center align text */
     }
 
     .guidelines-details h1 {
-        font-size: 32px; /* Adjusted font size for medium screens */
+        font-size: 32px;
+        /* Adjusted font size for medium screens */
         font-weight: 700;
         color: #152d35;
         margin-bottom: 20px;
@@ -503,7 +810,8 @@ header {
     }
 
     .guidelines-points p {
-        font-size: 18px; /* Adjusted font size for readability on medium screens */
+        font-size: 18px;
+        /* Adjusted font size for readability on medium screens */
         line-height: 1.6;
         margin-bottom: 10px;
         color: #555;
@@ -511,19 +819,22 @@ header {
     }
 
     #submission-guidelines p span {
-        font-size: 24px; /* Slightly reduced size for span */
+        font-size: 24px;
+        /* Slightly reduced size for span */
         margin-right: 5px;
         color: #1d9a96;
     }
 
     .guidelines-img {
         flex: 1;
-        max-width: 80%; /* Reduced width for image container */
+        max-width: 80%;
+        /* Reduced width for image container */
         text-align: center;
     }
 
     .guidelines-img img {
-        width: 100%; /* Full width for images */
+        width: 100%;
+        /* Full width for images */
         height: auto;
         object-fit: cover;
         border-radius: 10px;
@@ -535,26 +846,34 @@ header {
         background-image: url("./assets/images/submisson-call-for-paper-background.png");
         background-repeat: no-repeat;
         background-position: top right;
-        background-size: 50%; /* Adjust background size for medium screens */
-        padding: 50px 20px; /* Adjusted padding for medium screens */
+        background-size: 50%;
+        /* Adjust background size for medium screens */
+        padding: 50px 20px;
+        /* Adjusted padding for medium screens */
     }
 
     .poster-container {
         display: flex;
-        flex-direction: column-reverse; /* Stack items vertically */
-        align-items: center; /* Center content */
+        flex-direction: column-reverse;
+        /* Stack items vertically */
+        align-items: center;
+        /* Center content */
         justify-content: center;
-        gap: 30px; /* Adjusted gap */
+        gap: 30px;
+        /* Adjusted gap */
     }
 
     .poster-content {
         flex: 1;
-        max-width: 90%; /* Make content take more space on smaller screens */
-        text-align: center; /* Center text */
+        max-width: 90%;
+        /* Make content take more space on smaller screens */
+        text-align: center;
+        /* Center text */
     }
 
     .poster-content h1 {
-        font-size: 30px; /* Adjusted font size */
+        font-size: 30px;
+        /* Adjusted font size */
         font-weight: bold;
         margin-bottom: 20px;
         color: #152d35;
@@ -562,13 +881,15 @@ header {
     }
 
     .guidelines-points {
-        font-size: 16px; /* Reduced font size for mobile */
+        font-size: 16px;
+        /* Reduced font size for mobile */
         line-height: 1.6;
         color: #555;
     }
 
     .guidelines-points p {
-        margin-bottom: 15px; /* Adjusted bottom margin for readability */
+        margin-bottom: 15px;
+        /* Adjusted bottom margin for readability */
     }
 
     .guidelines-points span {
@@ -579,29 +900,33 @@ header {
 
     .poster-image {
         flex: 1;
-        max-width: 80%; /* Increased width for mobile screens */
+        max-width: 80%;
+        /* Increased width for mobile screens */
         text-align: center;
     }
 
     .poster-image img {
-        width: 75%; /* Adjusted image width */
+        width: 75%;
+        /* Adjusted image width */
         height: auto;
         object-fit: cover;
-        border-radius: 10px; /* Rounded corners for image */
+        border-radius: 10px;
+        /* Rounded corners for image */
     }
 
     #oral-presentation {
         background-color: #f4f4f4;
         padding: 60px 20px;
     }
-    
+
 
 }
 
 
-@media (max-width : 771px){
-      /* Hamburger Icon (Mobile Only) */
-      .hamburger {
+@media (max-width : 771px) {
+
+    /* Hamburger Icon (Mobile Only) */
+    .hamburger {
         display: block;
         /* Visible on mobile */
         cursor: pointer;
@@ -667,12 +992,14 @@ header {
         background-repeat: no-repeat;
         background-position: top right;
         background-size: 80%;
-        padding: 40px 20px; /* Reduced padding for smaller screens */
+        padding: 40px 20px;
+        /* Reduced padding for smaller screens */
     }
 
     .call-for-paper-container {
         display: flex;
-        flex-direction: column; /* Stack image and text vertically */
+        flex-direction: column;
+        /* Stack image and text vertically */
         align-items: center;
         justify-content: center;
         gap: 20px;
@@ -698,7 +1025,8 @@ header {
     }
 
     .call-for-paper-texts h1 {
-        font-size: 28px; /* Adjusted font size for smaller screens */
+        font-size: 28px;
+        /* Adjusted font size for smaller screens */
         font-weight: 700;
         color: #152d35;
         margin-bottom: 15px;
@@ -706,14 +1034,16 @@ header {
     }
 
     .call-for-paper-texts p {
-        font-size: 17px; /* Slightly smaller text for better readability */
+        font-size: 17px;
+        /* Slightly smaller text for better readability */
         line-height: 1.7;
         color: #555;
         margin-bottom: 20px;
     }
 
     .publication-details h2 {
-        font-size: 30px; /* Slightly smaller heading */
+        font-size: 30px;
+        /* Slightly smaller heading */
         font-weight: 700;
         color: #152d35;
         margin-bottom: 20px;
@@ -721,7 +1051,8 @@ header {
     }
 
     .publication-points p {
-        font-size: 17px; /* Slightly smaller font for better readability */
+        font-size: 17px;
+        /* Slightly smaller font for better readability */
         line-height: 1.6;
         color: #555;
     }
@@ -731,27 +1062,33 @@ header {
     }
 
     #submission-guidelines {
-        padding: 40px 20px; /* Reduced padding for smaller screens */
+        padding: 40px 20px;
+        /* Reduced padding for smaller screens */
     }
 
     .submisson-guidelines-container {
         display: flex;
-        flex-direction: column-reverse; /* Stack image and text vertically */
+        flex-direction: column-reverse;
+        /* Stack image and text vertically */
         align-items: center;
         justify-content: center;
-        gap: 20px; /* Reduced gap */
+        gap: 20px;
+        /* Reduced gap */
         margin: 0 auto;
     }
 
     .guidelines-details {
         flex: 1;
-        max-width: 100%; /* Full width for text container */
+        max-width: 100%;
+        /* Full width for text container */
         color: #333;
-        text-align: center; /* Center align text on smaller screens */
+        text-align: center;
+        /* Center align text on smaller screens */
     }
 
     .guidelines-details h1 {
-        font-size: 28px; /* Adjusted font size for smaller screens */
+        font-size: 28px;
+        /* Adjusted font size for smaller screens */
         font-weight: 700;
         color: #152d35;
         margin-bottom: 15px;
@@ -759,7 +1096,8 @@ header {
     }
 
     .guidelines-points p {
-        font-size: 17px; /* Adjusted font size for smaller screens */
+        font-size: 17px;
+        /* Adjusted font size for smaller screens */
         line-height: 1.6;
         margin-bottom: 10px;
         color: #555;
@@ -767,14 +1105,16 @@ header {
     }
 
     #submission-guidelines p span {
-        font-size: 22px; /* Reduced size for span */
+        font-size: 22px;
+        /* Reduced size for span */
         margin-right: 5px;
         color: #1d9a96;
     }
 
     .guidelines-img {
         flex: 1;
-        max-width: 100%; /* Full width for image container */
+        max-width: 100%;
+        /* Full width for image container */
         text-align: center;
     }
 
@@ -783,13 +1123,14 @@ header {
         height: auto;
         object-fit: cover;
         border-radius: 10px;
-    } 
+    }
 
 
     #submission-cta {
         background: url("./assets/images/submisson-cta-background.png") no-repeat center center;
         background-size: cover;
-        padding: 40px 20px; /* Adjusted padding for mobile screens */
+        padding: 40px 20px;
+        /* Adjusted padding for mobile screens */
         color: #fff;
     }
 
@@ -799,7 +1140,8 @@ header {
     }
 
     .submission-cta-container h1 {
-        font-size: 28px; /* Adjusted font size for mobile */
+        font-size: 28px;
+        /* Adjusted font size for mobile */
         font-weight: 700;
         color: #fff;
         margin-bottom: 20px;
@@ -807,7 +1149,8 @@ header {
     }
 
     .speaker-icon {
-        margin-bottom: 25px; /* Reduced margin for mobile */
+        margin-bottom: 25px;
+        /* Reduced margin for mobile */
     }
 
     .speaker-icon i {
@@ -817,10 +1160,13 @@ header {
 
     .submission-dates {
         display: flex;
-        flex-direction: row; /* Stack the dates vertically */
-        align-items: center; /* Center the items */
+        flex-direction: row;
+        /* Stack the dates vertically */
+        align-items: center;
+        /* Center the items */
         justify-content: center;
-        gap: 20px; /* Reduced gap for mobile */
+        gap: 20px;
+        /* Reduced gap for mobile */
     }
 
     .submission-1 {
@@ -830,12 +1176,14 @@ header {
         text-align: center;
         flex: 1;
         min-width: 250px;
-        max-width: 37%; /* Full width for mobile screens */
+        max-width: 37%;
+        /* Full width for mobile screens */
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     }
 
     .submission-1 h2 {
-        font-size: 20px; /* Adjusted font size */
+        font-size: 20px;
+        /* Adjusted font size */
         font-weight: 700;
         color: #152d35;
         margin-bottom: 10px;
@@ -843,13 +1191,15 @@ header {
     }
 
     .submission-1 p {
-        font-size: 18px; /* Adjusted font size for mobile */
+        font-size: 18px;
+        /* Adjusted font size for mobile */
         font-weight: 500;
         color: #333;
     }
 
     .submission-1 p span {
-        font-size: 30px; /* Adjusted font size for mobile */
+        font-size: 30px;
+        /* Adjusted font size for mobile */
         font-weight: 700;
         color: #152d35;
         display: block;
@@ -869,7 +1219,8 @@ header {
         align-items: center;
         justify-content: center;
         position: relative;
-        margin-bottom: 20px; /* Adjusted margin */
+        margin-bottom: 20px;
+        /* Adjusted margin */
     }
 
     .speaker-icon::before,
@@ -878,17 +1229,20 @@ header {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        width: 60px; /* Reduced length of the lines */
+        width: 60px;
+        /* Reduced length of the lines */
         height: 2px;
         background-color: #fff;
     }
 
     .speaker-icon::before {
-        left: 220px; /* Adjusted position */
+        left: 220px;
+        /* Adjusted position */
     }
 
     .speaker-icon::after {
-        right: 220px; /* Adjusted position */
+        right: 220px;
+        /* Adjusted position */
     }
 
     #poster-submission {
@@ -896,26 +1250,34 @@ header {
         background-image: url("./assets/images/submisson-call-for-paper-background.png");
         background-repeat: no-repeat;
         background-position: top right;
-        background-size: 60%; /* Adjust background size for smaller screens */
-        padding: 40px 20px; /* Reduced padding for mobile */
+        background-size: 60%;
+        /* Adjust background size for smaller screens */
+        padding: 40px 20px;
+        /* Reduced padding for mobile */
     }
 
     .poster-container {
         display: flex;
-        flex-direction: column-reverse; /* Stack items vertically */
-        align-items: center; /* Center the content */
+        flex-direction: column-reverse;
+        /* Stack items vertically */
+        align-items: center;
+        /* Center the content */
         justify-content: center;
-        gap: 20px; /* Reduced gap for mobile screens */
+        gap: 20px;
+        /* Reduced gap for mobile screens */
     }
 
     .poster-content {
         flex: 1;
-        max-width: 90%; /* Make content take more space on smaller screens */
-        text-align: center; /* Center text on mobile */
+        max-width: 90%;
+        /* Make content take more space on smaller screens */
+        text-align: center;
+        /* Center text on mobile */
     }
 
     .poster-content h1 {
-        font-size: 35px; /* Adjusted font size */
+        font-size: 35px;
+        /* Adjusted font size */
         font-weight: bold;
         margin-block: 20px;
         color: #152d35;
@@ -923,7 +1285,8 @@ header {
     }
 
     .guidelines-points {
-        font-size: 16px; /* Reduced font size for mobile */
+        font-size: 16px;
+        /* Reduced font size for mobile */
         line-height: 1.6;
         color: #555;
     }
@@ -940,7 +1303,8 @@ header {
 
     .poster-image {
         flex: 1;
-        max-width: 80%; /* Increased width for mobile screens */
+        max-width: 80%;
+        /* Increased width for mobile screens */
         text-align: center;
     }
 
@@ -948,31 +1312,39 @@ header {
         width: 75%;
         height: auto;
         object-fit: cover;
-        border-radius: 10px; /* Rounded corners for images */
+        border-radius: 10px;
+        /* Rounded corners for images */
     }
 
 
     #oral-presentation {
         background-color: #f4f4f4;
-        padding: 40px 20px; /* Reduced padding for smaller screens */
+        padding: 40px 20px;
+        /* Reduced padding for smaller screens */
     }
 
     .oral-container {
         display: flex;
-        flex-direction: column-reverse; /* Stack items vertically on mobile */
-        align-items: center; /* Center the content */
-        gap: 20px; /* Reduced gap for mobile screens */
+        flex-direction: column-reverse;
+        /* Stack items vertically on mobile */
+        align-items: center;
+        /* Center the content */
+        gap: 20px;
+        /* Reduced gap for mobile screens */
         justify-content: center;
     }
 
     .oral-seciton-texts {
         flex: 1;
-        max-width: 90%; /* Adjusted width for better fit */
-        text-align: center; /* Center text on mobile */
+        max-width: 90%;
+        /* Adjusted width for better fit */
+        text-align: center;
+        /* Center text on mobile */
     }
 
     .oral-seciton-texts h1 {
-        font-size: 28px; /* Adjusted font size for mobile */
+        font-size: 28px;
+        /* Adjusted font size for mobile */
         font-weight: bold;
         margin-bottom: 20px;
         color: #152d35;
@@ -980,7 +1352,8 @@ header {
     }
 
     .oral-seciton-texts p {
-        font-size: 17px; /* Reduced font size for readability */
+        font-size: 17px;
+        /* Reduced font size for readability */
         line-height: 1.8;
         color: #555;
         margin-bottom: 15px;
@@ -995,7 +1368,8 @@ header {
 
     .oral-img {
         flex: 1;
-        max-width: 80%; /* Increased width for mobile images */
+        max-width: 80%;
+        /* Increased width for mobile images */
         text-align: center;
     }
 
@@ -1003,10 +1377,11 @@ header {
         width: 75%;
         height: auto;
         object-fit: cover;
-        border-radius: 10px; /* Added rounded corners for mobile images */
+        border-radius: 10px;
+        /* Added rounded corners for mobile images */
     }
 
-    
+
     .subfooter-text {
         font-size: 15px;
         text-align: center;
@@ -1016,7 +1391,7 @@ header {
 /* media */
 
 @media (max-width: 450px) {
-    
+
     /* Hamburger Icon (Mobile Only) */
     .hamburger {
         display: block;
@@ -1080,8 +1455,8 @@ header {
     #call-for-paper {
         background-position: top right;
         padding: 40px 20px;
-    
-        
+
+
     }
 
     .call-for-paper-container {
@@ -1123,7 +1498,7 @@ header {
         line-height: 1.6;
         color: #555;
         margin-bottom: 15px;
-        
+
     }
 
     .publication-details h2 {
@@ -1323,7 +1698,8 @@ header {
 
     .poster-container {
         display: flex;
-        flex-direction: column-reverse; /* Stack items vertically */
+        flex-direction: column-reverse;
+        /* Stack items vertically */
         justify-content: center;
         align-items: center;
         gap: 20px;
@@ -1334,7 +1710,8 @@ header {
         flex: 1;
         max-width: 100%;
         text-align: center;
-        margin-top: 20px; /* Move the text below the image */
+        margin-top: 20px;
+        /* Move the text below the image */
     }
 
     .poster-content h1 {
@@ -1385,7 +1762,8 @@ header {
 
     .oral-container {
         display: flex;
-        flex-direction: column-reverse; /* Stack items vertically */
+        flex-direction: column-reverse;
+        /* Stack items vertically */
         justify-content: center;
         align-items: center;
         gap: 20px;
@@ -1435,30 +1813,36 @@ header {
     .oral-seciton-texts h1 {
         font-size: 31px;
     }
-    
+
 }
-.guidelines-points a{
+
+.guidelines-points a {
     color: #152d35;
 }
-.call-for-paper-texts ul{
+
+.call-for-paper-texts ul {
     margin: 0px 20px;
 }
-.call-for-paper-texts ul li{
+
+.call-for-paper-texts ul li {
     line-height: 1.3;
 }
-.call-for-paper-texts ul li{
+
+.call-for-paper-texts ul li {
     margin-bottom: 15px;
     font-size: 20px;
 }
+
 @media (max-width : 767px) {
-    .call-for-paper-texts ul li{
+    .call-for-paper-texts ul li {
         margin-bottom: 10px;
         font-size: 16px;
-    }  
+    }
 }
+
 @media (min-width : 768px) {
-.call-for-paper-texts ul li{
-    margin-bottom: 15px;
-    font-size: 20px;
-}
+    .call-for-paper-texts ul li {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
 }

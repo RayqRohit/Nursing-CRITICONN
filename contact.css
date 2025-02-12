@@ -1,5 +1,5 @@
 header {
-    background-color: #22b6af;
+    background-color: #edc031;
 }
 
 .hero-contactus{
@@ -62,7 +62,7 @@ header {
     /* Adjust heading size */
     margin-bottom: 45px;
     /* Add space below the heading */
-    color: #333;
+    color: #026095;
     /* Adjust color */
 
     font-family: "Libre Franklin";
@@ -130,7 +130,7 @@ header {
 }
 
 .contact-online i {
-    color: #005153;
+    color: #026095;
     /* Icon color */
     font-size: 1.2rem;
     /* Adjust icon size */
@@ -149,7 +149,7 @@ header {
 /* footer section */
 
 footer {
-    background-color: #152d35;
+    background-color: #026095;
     /* Dark background color */
     color: #fff;
     /* White text color */
@@ -192,7 +192,7 @@ footer {
     /* Improve readability */
     font-size: 1rem;
     /* Adjust text size */
-    color: #ccc;
+    color: #fff;
     /* Slightly lighter text color */
 }
 
@@ -205,7 +205,7 @@ footer {
     /* Adjust heading size */
     margin-bottom: 10px;
     /* Add space below the heading */
-    color: #fff;
+    color: #edc031;
     /* Keep heading white */
 
     text-transform: uppercase;
@@ -213,7 +213,7 @@ footer {
 
 .footer-right p {
     font-size: 15px;
-    color: #ccc;
+    color: #fff;
     /* Lighter text color */
 }
 
@@ -234,7 +234,7 @@ footer {
 
 .footer-mail i,
 .footer-phone i {
-    color: #fff;
+    color: #edc031;
     /* Icon color */
     font-size: 1.2rem;
     /* Adjust icon size */
@@ -244,7 +244,7 @@ footer {
 .footer-phone p {
     margin: 0;
     /* Remove default margin */
-    color: #ccc;
+    color: #fff;
     /* Lighter text color */
     font-size: 1rem;
     /* Adjust font size */

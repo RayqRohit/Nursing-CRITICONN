@@ -1,5 +1,5 @@
 header {
-    background-color: #22b6af;
+    background-color: #edc031;
 }
 .hero-registration{
     position: relative;
@@ -43,6 +43,9 @@ header {
     margin-bottom: 20px;
 
     font-family: "Libre franklin";
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
 }
 
 .fee-table {
@@ -61,7 +64,7 @@ header {
 }
 
 .fee-table th {
-    background-color: #152d35;
+    background-color: #026095;
     color: white;
     font-size: 18px;
 }
@@ -78,6 +81,55 @@ header {
 .fee-table tr:hover {
     background-color: #f1f1f1;
 }
+
+
+/* certificates details */
+
+#certificates-details {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+  
+}
+
+#certificates-details h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: "Libre Franklin";
+    color: #152d35;
+}
+
+#certificates-details ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+    color: #555;
+}
+
+#certificates-details ul li {
+    margin-bottom: 15px;
+}
+
+#certificates-details ul li::before {
+    content: "✦"; /* Star symbol before each list item */
+    color: #1d9a96; /* Star color */
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#certificates-details ul li a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#certificates-details ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
 
 
 /* for registration */
@@ -206,6 +258,8 @@ header {
     font-family: "Libre franklin";
 }
 
+
+
 #payment-details .details-section {
     display: flex;
     flex-wrap: wrap;
@@ -234,12 +288,13 @@ header {
 }
 
 #payment-details .qr-div img {
-    width: 250px;
+    width: 217px;
     height: auto;
     border: 2px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
+    padding: 8px;
 }
 
 #payment-details .qr-div p {
@@ -248,10 +303,18 @@ header {
     color: #444;
 }
 
+#payment-details .container > p {
+    font-size: 15px;
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: "Libre Franklin", sans-serif;
+}
+
 /* footer section */
 
 footer {
-    background-color: #152d35;
+    background-color: #026095;
     /* Dark background color */
     color: #fff;
     /* White text color */
@@ -307,7 +370,7 @@ footer {
     /* Adjust heading size */
     margin-bottom: 10px;
     /* Add space below the heading */
-    color: #fff;
+    color: #edc031;
     /* Keep heading white */
 
     text-transform: uppercase;
@@ -336,7 +399,7 @@ footer {
 
 .footer-mail i,
 .footer-phone i {
-    color: #fff;
+    color: #edc031;
     /* Icon color */
     font-size: 1.2rem;
     /* Adjust icon size */

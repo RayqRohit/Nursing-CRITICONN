@@ -18,6 +18,8 @@ html {
     max-width: 1280px;
 
     margin: 0 auto;
+    padding-right: 0;
+    padding-left: 0;
 
 }
 
@@ -61,12 +63,13 @@ section.hero {
     margin: 10px 0px;
 }
 
-/* .blinking-css {
+.blinking-css {
     animation: blinking1 1300ms infinite;
-	border-radius:5px;
+    border-radius: 5px;
     padding: 10px 20px;
     margin: 15px 0px;
-} */
+}
+
 .guidelines-points .blinking-css {
     font-size: 13px;
     margin-left: 5px;
@@ -75,20 +78,21 @@ section.hero {
 
 @keyframes blinking1 {
     0% {
-        background-color: rgb(34 182 175 / 39%);
-        box-shadow: 0 0 5px rgb(34 182 175 / 39%);
+        background-color: rgba(21, 90, 166, 0.39); /* Light Transparent Blue */
+        box-shadow: 0 0 5px rgba(21, 90, 166, 0.39);
     }
 
     50% {
-        background-color: #22b6af;
-        box-shadow: 0 0 20px #22b6af;
+        background-color: #155AA6; /* Solid Deep Blue */
+        box-shadow: 0 0 20px #155AA6;
     }
 
     100% {
-        background-color: #22b6af;
-        box-shadow: 0 0 5px #1d9a96;
+        background-color: #155AA6;
+        box-shadow: 0 0 5px #104885; /* Slightly Darker Blue */
     }
 }
+
 
 /* navbar section */
 
@@ -101,7 +105,7 @@ nav {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-nav .container{
+nav .container {
     padding: 0;
 }
 
@@ -779,6 +783,30 @@ button:hover {
 .btn-grp button:hover {
     background-color: #FCC737;
     transform: scale(1.05);
+}
+
+.blinking-css-4 {
+    animation: blinking4 1300ms infinite;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 15px 0px;
+}
+
+@keyframes blinking4 {
+    0% {
+        background-color: rgba(237, 192, 49, 0.39); /* Light Transparent Gold */
+        box-shadow: 0 0 5px rgba(237, 192, 49, 0.39);
+    }
+
+    50% {
+        background-color: #EDC031; /* Solid Gold */
+        box-shadow: 0 0 20px #EDC031;
+    }
+
+    100% {
+        background-color: #EDC031;
+        box-shadow: 0 0 5px #c9a129; /* Slightly Darker Gold */
+    }
 }
 
 
@@ -2251,7 +2279,7 @@ footer {
     text-align: justify;
 }
 
-.visit-places .img-box{
+.visit-places .img-box {
     margin-bottom: 20px;
 }
 
