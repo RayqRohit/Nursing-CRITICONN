@@ -42,12 +42,12 @@ img {
 
 /* header section */
 header {
-    background-color: #edc031;
+    background-color: #e8b410;
 }
 
 section.hero {
     position: relative;
-    background: url("./assets/images/banners/parul-nursing-banner.png") center / cover no-repeat;
+    background: url("./assets/images/banners/parul-nursing-banner.webp") center / cover no-repeat;
     /* height: 100vh; */
     width: 100%;
     padding: 75px 0px 150px;
@@ -124,6 +124,7 @@ nav .nav-links ul {
     /* Spacing between links */
     margin: 0;
     padding: 0;
+    
 }
 
 
@@ -134,7 +135,7 @@ nav .nav-links ul li a {
     transition: color 0.3s ease;
     text-transform: uppercase;
     font-family: 'Inter';
-    font-weight: semibold;
+    font-weight: bold;
 }
 
 
@@ -242,7 +243,7 @@ nav .nav-links ul li a:hover {
     padding: 4rem 20px 5rem;
     background-color: #FFFFF0;
     color: #333;
-    background-image: url("./assets/images/decoration-shape.png");
+    background-image: url("./assets/images/decoration-shape.webp");
     background-position: top right;
     background-repeat: no-repeat;
 
@@ -322,7 +323,7 @@ nav .nav-links ul li a:hover {
 .pharma-texts p:first-child {
     font-size: 25px;
     font-weight: bold;
-    color: #edc031;
+    color: #e8b410;
     margin-bottom: 5px;
     font-family: "Inter";
     margin-top: 10px;
@@ -399,7 +400,7 @@ nav .nav-links ul li a:hover {
 .conference-text p:first-child {
     font-size: 18px;
     font-weight: bold;
-    color: #edc031;
+    color: #e8b410;
     margin-bottom: 5px;
     font-family: "Inter";
 }
@@ -418,7 +419,6 @@ nav .nav-links ul li a:hover {
     line-height: 1.54;
     color: #555;
     margin-bottom: 20px;
-    text-align: justify;
 }
 
 .trust-content h3 {
@@ -710,7 +710,7 @@ button:hover {
 
 
 #cta-section {
-    background-image: url('./assets/images/cta-background.png');
+    background-image: url('./assets/images/cta-background.webp');
     /* Replace with the path to your background image */
     background-size: cover;
     background-position: center;
@@ -745,7 +745,7 @@ button:hover {
 }
 
 .btn-grp button {
-    background-color: #edc031;
+    background-color: #e8b410;
     color: #fff;
     border: none;
     padding: 15px 20px;
@@ -799,12 +799,12 @@ button:hover {
     }
 
     50% {
-        background-color: #EDC031; /* Solid Gold */
-        box-shadow: 0 0 20px #EDC031;
+        background-color: #e8b410; /* Solid Gold */
+        box-shadow: 0 0 20px #e8b410;
     }
 
     100% {
-        background-color: #EDC031;
+        background-color: #e8b410;
         box-shadow: 0 0 5px #c9a129; /* Slightly Darker Gold */
     }
 }
@@ -1254,7 +1254,7 @@ footer {
         padding-top: 120px;
         background-color: #f7f8f9;
         color: #333;
-        background-image: url(./assets/images/decoration-shape.png);
+        background-image: url(./assets/images/decoration-shape.webp);
         background-position: top right;
         background-repeat: no-repeat;
         margin: 0px 10px;

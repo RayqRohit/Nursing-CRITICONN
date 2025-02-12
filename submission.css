@@ -1,10 +1,10 @@
 header {
-    background-color: #edc031;
+    background-color: #e8b410;
 }
 
 .hero-submission {
     position: relative;
-    background: url("./assets/images/submisson-header-background.png") no-repeat center center/cover;
+    background: url("./assets/images/submisson-header-background.webp") no-repeat center center/cover;
     /* height: 100vh; */
     width: 100%;
     padding: 50px 0px 100px;
@@ -29,7 +29,7 @@ header {
 
 #call-for-paper {
     background-color: #fff;
-    background-image: url("./assets/images/submisson-call-for-paper-background.png");
+    background-image: url("./assets/images/submisson-call-for-paper-background.webp");
     background-repeat: no-repeat;
     background-position: top right;
     background-size: contain;
@@ -177,12 +177,12 @@ header {
     }
 
     50% {
-        background-color: #EDC031; /* Solid Gold */
-        box-shadow: 0 0 20px #EDC031;
+        background-color: #e8b410; /* Solid Gold */
+        box-shadow: 0 0 20px #e8b410;
     }
 
     100% {
-        background-color: #EDC031;
+        background-color: #e8b410;
         box-shadow: 0 0 5px #c9a129; /* Slightly Darker Gold */
     }
 }
@@ -191,7 +191,7 @@ header {
 /* submission cta */
 
 #submission-cta {
-    background: url("./assets/images/submisson-cta-background.png") no-repeat center center;
+    background: url("./assets/images/submisson-cta-background.webp") no-repeat center center;
     background-size: cover;
     padding: 60px 0;
     color: #fff;
@@ -309,7 +309,7 @@ header {
     padding: 60px 0;
 
     background-color: #f7f8f9;
-    background-image: url("./assets/images/submisson-call-for-paper-background.png");
+    background-image: url("./assets/images/submisson-call-for-paper-background.webp");
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 30%;
@@ -557,7 +557,7 @@ header {
 .awards-competition-container h1 {
     text-align: center;
     font-size: 2.5rem;
-    color: #ffb02e;
+    color: #e8b410;
     margin-bottom: 40px;
 }
 
@@ -619,7 +619,7 @@ header {
 
 .competition-winners h3 {
     font-size: 1.8rem;
-    color: #ffb02e;
+    color: #e8b410;
     margin-bottom: 45px;
 }
 
@@ -652,7 +652,7 @@ header {
 .winner p:first-child {
     font-size: 3rem;
     margin: 0;
-    color: #ffcc00; /* Gold color for the emoji */
+    color: #e8b410; /* Gold color for the emoji */
 }
 
 .winner h4 {
@@ -669,7 +669,7 @@ header {
 
 .winner p:last-child {
     font-weight: bold;
-    color: #ffb02e;
+    color: #e8b410;
 }
 
 /* Specific colors for each winner */
@@ -843,7 +843,7 @@ header {
 
     #poster-submission {
         background-color: #f7f8f9;
-        background-image: url("./assets/images/submisson-call-for-paper-background.png");
+        background-image: url("./assets/images/submisson-call-for-paper-background.webp");
         background-repeat: no-repeat;
         background-position: top right;
         background-size: 50%;
@@ -988,7 +988,7 @@ header {
 
     #call-for-paper {
         background-color: #f7f8f9;
-        background-image: url("./assets/images/submisson-call-for-paper-background.png");
+        background-image: url("./assets/images/submisson-call-for-paper-background.webp");
         background-repeat: no-repeat;
         background-position: top right;
         background-size: 80%;
@@ -1127,7 +1127,7 @@ header {
 
 
     #submission-cta {
-        background: url("./assets/images/submisson-cta-background.png") no-repeat center center;
+        background: url("./assets/images/submisson-cta-background.webp") no-repeat center center;
         background-size: cover;
         padding: 40px 20px;
         /* Adjusted padding for mobile screens */
@@ -1247,7 +1247,7 @@ header {
 
     #poster-submission {
         background-color: #f7f8f9;
-        background-image: url("./assets/images/submisson-call-for-paper-background.png");
+        background-image: url("./assets/images/submisson-call-for-paper-background.webp");
         background-repeat: no-repeat;
         background-position: top right;
         background-size: 60%;
@@ -1576,7 +1576,7 @@ header {
 
 
     #submission-cta {
-        background: url("./assets/images/submisson-cta-background.png") no-repeat center center;
+        background: url("./assets/images/submisson-cta-background.webp") no-repeat center center;
         background-size: cover;
         padding: 40px 0;
         color: #fff;
@@ -1690,7 +1690,7 @@ header {
     #poster-submission {
         background-color: #f9f9f9;
         padding: 40px 20px;
-        background-image: url("./assets/images/submisson-call-for-paper-background.png");
+        background-image: url("./assets/images/submisson-call-for-paper-background.webp");
         background-repeat: no-repeat;
         background-position: top right;
         background-size: contain;

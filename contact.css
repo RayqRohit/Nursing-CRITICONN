@@ -1,10 +1,10 @@
 header {
-    background-color: #edc031;
+    background-color: #e8b410;
 }
 
 .hero-contactus{
     position: relative;
-    background: url("./assets/images/contact-background.png") no-repeat center center/cover;
+    background: url("./assets/images/contact-background.webp") no-repeat center center/cover;
     width: 100%;
     padding: 200px 0px 150px;
 }
