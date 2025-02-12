@@ -12,6 +12,7 @@
     <!-- aos cdn -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./contact.css">
     <link rel="stylesheet" href="./gallery.css">
@@ -21,211 +22,215 @@
 </head>
 
 <body>
+    <div class="content" data-scroll-container>
+        <!-- header section  -->
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                        <a href="./index.html">
+                            <img src="./assets/images/parul-logo.webp" alt="Logo">
+                            <!-- <img src="./assets/images/Logo 2.webp" alt="Logo"> -->
+                            <!-- <img src="./assets/images/Logo 3.webp" alt="Logo"> -->
+                            <img src="./assets/images/conference-logo.webp" alt="Logo" class="mobile-logo">
+                        </a>
+                    </div>
 
-    <!-- header section  -->
-    <header>
-        <div class="container">
-            <nav>
-                <div class="logo">
-                    <a href="./index.html">
-                        <img src="./assets/images/parul-logo.webp" alt="Logo">
-                        <!-- <img src="./assets/images/Logo 2.webp" alt="Logo"> -->
-                        <!-- <img src="./assets/images/Logo 3.webp" alt="Logo"> -->
-                        <img src="./assets/images/conference-logo.webp" alt="Logo" class="mobile-logo">
-                    </a>
-                </div>
+                    <!-- Hamburger and Cross Icons -->
+                    <div class="hamburger">
+                        <i class="fa-solid fa-bars" id="menu-open"></i>
+                        <i class="fa-solid fa-times" id="menu-close" style="display: none;"></i>
+                    </div>
 
-                <!-- Hamburger and Cross Icons -->
-                <div class="hamburger">
-                    <i class="fa-solid fa-bars" id="menu-open"></i>
-                    <i class="fa-solid fa-times" id="menu-close" style="display: none;"></i>
-                </div>
-
-                <!-- Navigation Links -->
-                <div class="nav-links">
-                    <ul>
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./about.html">ABOUT CRITICONN </a></li>
-                        <li><a href="./preconference.html">Pre-conference Workshops</a></li>
-                        <li><a href="./submission.html">Submission Details</a></li>
-                        <li><a href="./registration.html">Registration</a></li>
-                        <li><a href="./gallery.html">Partners</a></li>
-                        <li><a href="./contact.html">Contact Us</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-
-
-
-    </header>
-    <section class="hero-gallery">
-        <div class="container">
-            <div class="contact-header-text">
-                <h1>Our Associated Partners </h1>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Gallery Section -->
-    <section id="gallery">
-        <div class="container">
-            <!-- Skill Partners Section -->
-            <div class="gallery-section">
-                <h2>Our  <span style="color: #e73649;">Skill Partners</span></h2>
-                <div class="skill-partners">
-                    <img src="./assets/images/partner-img.webp" alt="Skill Partner">
-                </div>
+                    <!-- Navigation Links -->
+                    <div class="nav-links">
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./about.html">ABOUT CRITICONN </a></li>
+                            <li><a href="./preconference.html">Pre-conference Workshops</a></li>
+                            <li><a href="./submission.html">Submission Details</a></li>
+                            <li><a href="./registration.html">Registration</a></li>
+                            <li><a href="./gallery.html">Partners</a></li>
+                            <li><a href="./contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
 
-            <!-- Associated Partners Section -->
-            <div class="gallery-section">
-                <h2>Our <span style="color: #e73649;">Associated Partners</span></h2>
-                <div class="associated-partners sliding-container">
-                    <img src="./assets/images/partner1.webp" alt="Partner 1">
-                    <img src="./assets/images/partner2.webp" alt="Partner 2">
-                    <img src="./assets/images/partner3.webp" alt="Partner 3">
-                    <img src="./assets/images/partner4.webp" alt="Partner 4">
-                    <img src="./assets/images/partner5.webp" alt="Partner 5">
-                    <img src="./assets/images/partner6.webp" alt="Partner 6">
-                    <img src="./assets/images/partner7.webp" alt="Partner 7">
-                    <img src="./assets/images/partner8.webp" alt="Partner 8">
-                    <img src="./assets/images/partner9.webp" alt="Partner 9">
 
-                    <!-- Duplicate images for seamless sliding -->
-                    <img src="./assets/images/partner1.webp" alt="Partner 1">
-                    <img src="./assets/images/partner2.webp" alt="Partner 2">
-                    <img src="./assets/images/partner3.webp" alt="Partner 3">
-                    <img src="./assets/images/partner4.webp" alt="Partner 4">
-                    <img src="./assets/images/partner5.webp" alt="Partner 5">
-                    <img src="./assets/images/partner6.webp" alt="Partner 6">
-                    <img src="./assets/images/partner7.webp" alt="Partner 7">
-                    <img src="./assets/images/partner8.webp" alt="Partner 8">
-                    <img src="./assets/images/partner9.webp" alt="Partner 9">
+
+        </header>
+        <section class="hero-gallery">
+            <div class="container">
+                <div class="contact-header-text">
+                    <h1>Our Associated Partners </h1>
                 </div>
             </div>
+        </section>
 
-            <!-- Glimpse of CRITICONN Conference Section -->
-            <div class="gallery-section">
-                <h2>Glimpse of <span style="color: #e8b410;">CRITICONN Conference</span> </h2>
 
-                <!-- CRITICONN 2022 -->
-                <h3>CRITICONN: 2022</h3>
-                <div class="conference-gallery sliding-container">
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-1.webp" alt="CRITICONN 2022 Image 1">
-                    <!-- <img src="./assets/images/Criticonn-2022 PICS/c22-2.webp" alt="CRITICONN 2022 Image 2">
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <div class="container">
+                <!-- Skill Partners Section -->
+                <div class="gallery-section">
+                    <h2>Our <span style="color: #e73649;">Skill Partners</span></h2>
+                    <div class="skill-partners">
+                        <img src="./assets/images/partner-img.webp" alt="Skill Partner">
+                    </div>
+                </div>
+
+                <!-- Associated Partners Section -->
+                <div class="gallery-section">
+                    <h2>Our <span style="color: #e73649;">Associated Partners</span></h2>
+                    <div class="associated-partners sliding-container">
+                        <img src="./assets/images/partner1.webp" alt="Partner 1">
+                        <img src="./assets/images/partner2.webp" alt="Partner 2">
+                        <img src="./assets/images/partner3.webp" alt="Partner 3">
+                        <img src="./assets/images/partner4.webp" alt="Partner 4">
+                        <img src="./assets/images/partner5.webp" alt="Partner 5">
+                        <img src="./assets/images/partner6.webp" alt="Partner 6">
+                        <img src="./assets/images/partner7.webp" alt="Partner 7">
+                        <img src="./assets/images/partner8.webp" alt="Partner 8">
+                        <img src="./assets/images/partner9.webp" alt="Partner 9">
+
+                        <!-- Duplicate images for seamless sliding -->
+                        <img src="./assets/images/partner1.webp" alt="Partner 1">
+                        <img src="./assets/images/partner2.webp" alt="Partner 2">
+                        <img src="./assets/images/partner3.webp" alt="Partner 3">
+                        <img src="./assets/images/partner4.webp" alt="Partner 4">
+                        <img src="./assets/images/partner5.webp" alt="Partner 5">
+                        <img src="./assets/images/partner6.webp" alt="Partner 6">
+                        <img src="./assets/images/partner7.webp" alt="Partner 7">
+                        <img src="./assets/images/partner8.webp" alt="Partner 8">
+                        <img src="./assets/images/partner9.webp" alt="Partner 9">
+                    </div>
+                </div>
+
+                <!-- Glimpse of CRITICONN Conference Section -->
+                <div class="gallery-section">
+                    <h2>Glimpse of <span style="color: #e8b410;">CRITICONN Conference</span> </h2>
+
+                    <!-- CRITICONN 2022 -->
+                    <h3>CRITICONN: 2022</h3>
+                    <div class="conference-gallery sliding-container">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-1.webp" alt="CRITICONN 2022 Image 1">
+                        <!-- <img src="./assets/images/Criticonn-2022 PICS/c22-2.webp" alt="CRITICONN 2022 Image 2">
                     <img src="./assets/images/Criticonn-2022 PICS/c22-3.webp" alt="CRITICONN 2022 Image 3"> -->
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-4.webp" alt="CRITICONN 2022 Image 4">
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-5.webp" alt="CRITICONN 2022 Image 5">
-                    <!-- <img src="./assets/images/Criticonn-2022 PICS/c22-6.webp" alt="CRITICONN 2022 Image 6"> -->
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-7.webp" alt="CRITICONN 2022 Image 7">
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-8.webp" alt="CRITICONN 2022 Image 8">
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-9.webp" alt="CRITICONN 2022 Image 9">
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-10.webp" alt="CRITICONN 2022 Image 10">
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-11.webp" alt="CRITICONN 2022 Image 11">
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-12.webp" alt="CRITICONN 2022 Image 12">
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-13.webp" alt="CRITICONN 2022 Image 13">
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-14.webp" alt="CRITICONN 2022 Image 14">
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-15.webp" alt="CRITICONN 2022 Image 15">
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-16.webp" alt="CRITICONN 2022 Image 16">
-                    <!-- duplicated images -->
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-1.webp" alt="CRITICONN 2022 Image 1">
-                    <!-- <img src="./assets/images/Criticonn-2022 PICS/c22-2.webp" alt="CRITICONN 2022 Image 2">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-4.webp" alt="CRITICONN 2022 Image 4">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-5.webp" alt="CRITICONN 2022 Image 5">
+                        <!-- <img src="./assets/images/Criticonn-2022 PICS/c22-6.webp" alt="CRITICONN 2022 Image 6"> -->
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-7.webp" alt="CRITICONN 2022 Image 7">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-8.webp" alt="CRITICONN 2022 Image 8">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-9.webp" alt="CRITICONN 2022 Image 9">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-10.webp" alt="CRITICONN 2022 Image 10">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-11.webp" alt="CRITICONN 2022 Image 11">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-12.webp" alt="CRITICONN 2022 Image 12">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-13.webp" alt="CRITICONN 2022 Image 13">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-14.webp" alt="CRITICONN 2022 Image 14">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-15.webp" alt="CRITICONN 2022 Image 15">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-16.webp" alt="CRITICONN 2022 Image 16">
+                        <!-- duplicated images -->
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-1.webp" alt="CRITICONN 2022 Image 1">
+                        <!-- <img src="./assets/images/Criticonn-2022 PICS/c22-2.webp" alt="CRITICONN 2022 Image 2">
                     <img src="./assets/images/Criticonn-2022 PICS/c22-3.webp" alt="CRITICONN 2022 Image 3"> -->
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-4.webp" alt="CRITICONN 2022 Image 4">
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-5.webp" alt="CRITICONN 2022 Image 5">
-                    <!-- <img src="./assets/images/Criticonn-2022 PICS/c22-6.webp" alt="CRITICONN 2022 Image 6"> -->
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-7.webp" alt="CRITICONN 2022 Image 7">
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-8.webp" alt="CRITICONN 2022 Image 8">
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-9.webp" alt="CRITICONN 2022 Image 9">
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-10.webp" alt="CRITICONN 2022 Image 10">
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-11.webp" alt="CRITICONN 2022 Image 11">
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-12.webp" alt="CRITICONN 2022 Image 12">
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-13.webp" alt="CRITICONN 2022 Image 13">
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-14.webp" alt="CRITICONN 2022 Image 14">
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-15.webp" alt="CRITICONN 2022 Image 15">
-                    <img src="./assets/images/Criticonn-2022 PICS/c22-16.webp" alt="CRITICONN 2022 Image 16">
-                </div>
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-4.webp" alt="CRITICONN 2022 Image 4">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-5.webp" alt="CRITICONN 2022 Image 5">
+                        <!-- <img src="./assets/images/Criticonn-2022 PICS/c22-6.webp" alt="CRITICONN 2022 Image 6"> -->
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-7.webp" alt="CRITICONN 2022 Image 7">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-8.webp" alt="CRITICONN 2022 Image 8">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-9.webp" alt="CRITICONN 2022 Image 9">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-10.webp" alt="CRITICONN 2022 Image 10">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-11.webp" alt="CRITICONN 2022 Image 11">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-12.webp" alt="CRITICONN 2022 Image 12">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-13.webp" alt="CRITICONN 2022 Image 13">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-14.webp" alt="CRITICONN 2022 Image 14">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-15.webp" alt="CRITICONN 2022 Image 15">
+                        <img src="./assets/images/Criticonn-2022 PICS/c22-16.webp" alt="CRITICONN 2022 Image 16">
+                    </div>
 
-                <!-- CRITICONN 2023 -->
-                <h3>CRITICONN: 2023</h3>
-                <div class="conference-gallery sliding-container">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-1.webp" alt="CRITICONN 2023 Image 1">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-2.webp" alt="CRITICONN 2023 Image 2">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-3.webp" alt="CRITICONN 2023 Image 3">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-4.webp" alt="CRITICONN 2023 Image 4">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-5.webp" alt="CRITICONN 2023 Image 5">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-6.webp" alt="CRITICONN 2023 Image 6">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-7.webp" alt="CRITICONN 2023 Image 7">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-8.webp" alt="CRITICONN 2023 Image 8">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-9.webp" alt="CRITICONN 2023 Image 9">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-10.webp" alt="CRITICONN 2023 Image 10">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-11.webp" alt="CRITICONN 2023 Image 11">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-12.webp" alt="CRITICONN 2023 Image 12">
+                    <!-- CRITICONN 2023 -->
+                    <h3>CRITICONN: 2023</h3>
+                    <div class="conference-gallery sliding-container">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-1.webp" alt="CRITICONN 2023 Image 1">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-2.webp" alt="CRITICONN 2023 Image 2">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-3.webp" alt="CRITICONN 2023 Image 3">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-4.webp" alt="CRITICONN 2023 Image 4">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-5.webp" alt="CRITICONN 2023 Image 5">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-6.webp" alt="CRITICONN 2023 Image 6">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-7.webp" alt="CRITICONN 2023 Image 7">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-8.webp" alt="CRITICONN 2023 Image 8">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-9.webp" alt="CRITICONN 2023 Image 9">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-10.webp" alt="CRITICONN 2023 Image 10">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-11.webp" alt="CRITICONN 2023 Image 11">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-12.webp" alt="CRITICONN 2023 Image 12">
 
-                    <!-- duplicated images -->
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-1.webp" alt="CRITICONN 2023 Image 1">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-2.webp" alt="CRITICONN 2023 Image 2">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-3.webp" alt="CRITICONN 2023 Image 3">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-4.webp" alt="CRITICONN 2023 Image 4">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-5.webp" alt="CRITICONN 2023 Image 5">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-6.webp" alt="CRITICONN 2023 Image 6">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-7.webp" alt="CRITICONN 2023 Image 7">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-8.webp" alt="CRITICONN 2023 Image 8">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-9.webp" alt="CRITICONN 2023 Image 9">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-10.webp" alt="CRITICONN 2023 Image 10">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-11.webp" alt="CRITICONN 2023 Image 11">
-                    <img src="./assets/images/Criticonn 2023 PICS/c23-12.webp" alt="CRITICONN 2023 Image 12">
+                        <!-- duplicated images -->
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-1.webp" alt="CRITICONN 2023 Image 1">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-2.webp" alt="CRITICONN 2023 Image 2">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-3.webp" alt="CRITICONN 2023 Image 3">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-4.webp" alt="CRITICONN 2023 Image 4">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-5.webp" alt="CRITICONN 2023 Image 5">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-6.webp" alt="CRITICONN 2023 Image 6">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-7.webp" alt="CRITICONN 2023 Image 7">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-8.webp" alt="CRITICONN 2023 Image 8">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-9.webp" alt="CRITICONN 2023 Image 9">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-10.webp" alt="CRITICONN 2023 Image 10">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-11.webp" alt="CRITICONN 2023 Image 11">
+                        <img src="./assets/images/Criticonn 2023 PICS/c23-12.webp" alt="CRITICONN 2023 Image 12">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 
 
 
 
 
-    <footer>
-        <div class="container footer-container">
-            <div class="footer-left">
+        <footer>
+            <div class="container footer-container">
+                <div class="footer-left">
 
-                <div class="footer-logo">
-                    <img src="./assets/images/nursing-logo.webp" alt="">
+                    <div class="footer-logo">
+                        <img src="./assets/images/nursing-logo.webp" alt="">
+                    </div>
+
+                    <p>Join a distinguished gathering of nursing professionals, educators, and healthcare experts at
+                        CRITICONN 2025, where innovation, skill enhancement, and evidence-based practices shape the
+                        future
+                        of critical care nursing. Engage in transformative discussions, hands-on workshops, and
+                        collaborative learning experiences to advance patient care and professional growth.</p>
+
+
+
                 </div>
+                <div class="footer-right">
 
-                <p>Join a distinguished gathering of nursing professionals, educators, and healthcare experts at
-                    CRITICONN 2025, where innovation, skill enhancement, and evidence-based practices shape the future
-                    of critical care nursing. Engage in transformative discussions, hands-on workshops, and
-                    collaborative learning experiences to advance patient care and professional growth.</p>
+                    <h4>Venue address</h4>
+
+                    <p>Parul University</p>
+                    <p>P.O.Limda, Ta.Waghodia – 391760 Dist. Vadodara,</p>
+                    <p> Gujarat (India)</p>
 
 
+                    <div class="footer-mail">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>criticon@paruniversity.ac.in</p>
+                    </div>
 
+
+                    <div class="footer-phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>7567253559</p>
+                    </div>
+
+                </div>
             </div>
-            <div class="footer-right">
-
-                <h4>Venue address</h4>
-
-                <p>Parul University</p>
-                <p>P.O.Limda, Ta.Waghodia – 391760 Dist. Vadodara,</p>
-                <p> Gujarat (India)</p>
+        </footer>
 
 
-                <div class="footer-mail">
-                    <i class="fa-solid fa-envelope"></i>
-                    <p>criticon@paruniversity.ac.in</p>
-                </div>
 
-
-                <div class="footer-phone">
-                    <i class="fa-solid fa-phone"></i>
-                    <p>7567253559</p>
-                </div>
-
-            </div>
-        </div>
-    </footer>
 
 
 
@@ -234,6 +239,9 @@
     <script>
         AOS.init();
     </script>
+
+
+    
 
 
     <script src="./script.js"></script>
